@@ -8,6 +8,8 @@ function pick(rng, arr) {
     return arr[Math.floor(this.fn() * (max - min)) + min];
 }
 
+let ch = /\s+ch (?:([a-zA-Z0-9-]+|“[^”]+”) to ([a-zA-Z0-9-]+|“[^”]+”))(?:(?: &|,) ([a-zA-Z0-9-]+|“[^”]+”) to ([a-zA-Z0-9-]+|“[^”]+”))*/;
+
 function resolveConflict(id) {
 
     var ids = id.split(',');
@@ -16,10 +18,12 @@ function resolveConflict(id) {
     for(let i of ids) {
         
         let conflictid = i;
-        if(conflictid.indexOf(maniId) != 0)
+        if(conflictid.indexOf(mainId) != 0)
             conflictid = mainId + i;
-
-        let ch = /\s+ch (?:([a-zA-Z0-9-]+|“[^”]+”) to ([a-zA-Z0-9-]+|“[^”]+”))(?: & ([a-zA-Z0-9-]+|“[^”]+”) to ([a-zA-Z0-9-]+|“[^”]+”))*/;
+        
+        
+        
+        
         
     }
 
