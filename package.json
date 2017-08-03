@@ -1,11 +1,13 @@
 {
   "name": "plottoriffic",
   "version": "1.0.0",
-  "description": "Generate plots based on Plotto",
+  "description": "Generate plots based on Plotto: A New Method of Plot Suggestion for Writers of Creative Fiction",
+  "keywords": ["procedural", "generative", "fiction", "story", "plot", "ES6"],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified.. err... I was supposed to write tests?\" && exit 1"
   },
+  "files": ["data"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justinoverton/plottoriffic.git"

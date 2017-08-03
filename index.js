@@ -26,7 +26,10 @@ function pick(rng, arr) {
 class PlotGenerator {
 
     constructor({ seed=null, flipGenders=undefined } = {}) {
-        this._rng = seedrandom(seed);
+        //seedrandom doesn't expose the seed used, so generate one here
+        this._seed = seed || seedrandom()();
+
+        this._rng = seedrandom(this._seed);
         
         if(flipGenders === undefined) {
             this._flipGenders = this._rng() < 0.5; //50% chance true/false 
@@ -35,6 +38,7 @@ class PlotGenerator {
         }
     }
 
+    get seed() { return this._seed; }
     get flipGenders() { return this._flipGenders; }
     set flipGenders(flip) { this._flipGenders = flip; }
     
@@ -75,7 +79,7 @@ class PlotGenerator {
         return [
             subject,
             preamble,
-            this._expand(conflict, rootTransform, {leadIns:3, carryOns:3}).replace(/\*/g, ''),
+            this._expand(conflict, rootTransform, {leadIns:1, carryOns:1}).replace(/\*/g, ''),
             resolution
             ].join('\n\n').trim();
     }
@@ -158,7 +162,4 @@ class PlotGenerator {
 }
 
 
-exports.PlotGenerator = PlotGenerator;
-
-let g = new PlotGenerator();
-console.log(g.generate());
+module.exports = PlotGenerator;
