@@ -80,7 +80,7 @@ X	|an inanimate object, an object of mystery, an uncertain quantity	|
 
 ## 1928 and Civil Rights Discrepancies
 
-Plotto was written in 1928 decades before the civil rights area in the US. Therefore the generated plots may seem to favor males and have some references to race.
+Plotto was written in 1928 decades before the civil rights era in the US. Therefore the generated plots may seem to favor males and have some references to race.
 
 ### Protagonist Gender
 

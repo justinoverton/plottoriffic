@@ -10,7 +10,7 @@ const jsonPath = require('jsonpath');
 const obj = require('./data/plotto.json');
 const _ = require('underscore');
 
-//console.log(JSON.stringify(Object.keys(obj.conflicts), null, '\t'));
+/*
 let added = obj.conflicts;
 for(let ck of Object.keys(obj.conflicts)) {
     let conflict = obj.conflicts[ck];
@@ -59,21 +59,75 @@ for(let ck of Object.keys(obj.conflicts)) {
         //console.log(idxs[i].name, ':',  data);
     }
 }
+*/
 //console.log(JSON.stringify(added, null, '\t'));
 let allKeys = Object.keys(obj.conflicts);
 
 let stk = [];
 for(let o of jsonPath.query(obj, '$.conflicts.*')) {
     stk.push(o.conflictid);
+    
+    expandDesc(o);
+    
+    /*
     for(let arrt of ['leadIns', 'carryOns']) {
         stk.push(arrt);
         o[arrt] = expand(o[arrt]);
         stk.pop();
     }
+    */
     stk.pop();
 }
 
+function expandDesc(item) {
+    
+    if(typeof(item.description) != "string") {
+        return;
+    }
+    
+    let rg = /\{([^}]+)\}/g;
+    let m = rg.exec(item.description);
+    if(!m) {
+        return;
+    }
+    
+    let desc = item.description;
+    let repl = [];
+    let prevStart = 0;
+    
+    do {
+        
+        let s = desc.slice(prevStart, m.index);
+        if(s) { repl.push(s); }
+        
+        let refNodes = expand(_.map(m[1].split("|"), function(idstr) {
+            
+            let addOp = idstr.split(';');
+            if(addOp.length > 1) {
+                return { op:'+', v:addOp};
+            }
+            
+            return idstr;
+            
+        }));
+        
+        repl.push(refNodes);
+        
+        prevStart = m.index + m[0].length + 1;
+        
+    } while((m = rg.exec(item.description)));
+    
+    item.description = repl;
+    //console.log(item.conflictid, ':', desc);
+    //console.log('===', JSON.stringify(repl));
+    
+}
+
 function expand(item) {
+    
+    if(typeof(item) == "string") {
+        item = fixToCh(item);
+    }
     
     if(typeof(item) == "string") {
         
@@ -137,7 +191,7 @@ function expand(item) {
                 //console.log('OUTLIER!!', stk.join('/'), '[' + k + ']:', item, ' ---> ', JSON.stringify(ret), ' ____ ', JSON.stringify(ret2));
                 ret = ret2;
             } else {
-                //console.log('!!!!!OUTLIER!!', stk.join('/'), '[' + k + ']:', item, ' ---> ', JSON.stringify(ret), ' ____ ', d);
+                console.log('!!!!!OUTLIER!!', stk.join('/'), '[' + k + ']:', item, ' ---> ', JSON.stringify(ret), ' ____ ', d);
             }
             
             

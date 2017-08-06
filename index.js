@@ -6,43 +6,144 @@ function regEscape(s) {
     return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
-function pick(rng, arr) {
-    if(!arr) {
-        return null;
-    }
-    if(arr.length == 0)
-        return null;
-    if(arr.length == 1)
-        return arr[0];
+//seedrandom doesn't expose the seed used, so generate one here
+const defaultSeed = seedrandom()(); ;
+const defaultRng = seedrandom(defaultSeed);
+
+const genderMap = {
+		"A": "male",
+		"A-2": "male",
+		"A-3": "male",
+		"A-4": "male",
+		"A-5": "male",
+		"A-6": "male",
+		"A-7": "male",
+		"A-8": "male",
+		"A-9": "male",
+		"B": "female",
+		"B-2": "female",
+		"B-3": "female",
+		"B-4": "female",
+		"B-5": "female",
+		"B-6": "female",
+		"B-7": "female",
+		"B-8": "female",
+		"B-9": "female",
+		"F-A": "father",
+		"M-A": "mother",
+		"BR-A": "male",
+		"SR-A": "female",
+		"SN-A": "male",
+		"D-A": "female",
+		"U-A": "male",
+		"AU-A": "female",
+		"CN-A": "male",
+		"NW-A": "male",
+		"NC-A": "female",
+		"GF-A": "male",
+		"GM-A": "female",
+		"SF-A": "male",
+		"SM-A": "female",
+		"GCH-A": "any",
+		"F-B": "male",
+		"M-B": "female",
+		"BR-B": "male",
+		"SR-B": "female",
+		"SN-B": "male",
+		"D-B": "female",
+		"U-B": "male",
+		"AU-B": "female",
+		"CN-B": "female",
+		"NW-B": "male",
+		"NC-B": "female",
+		"GF-B": "male",
+		"GM-B": "female",
+		"SF-B": "male",
+		"SM-B": "female",
+		"GCH-B": "any",
+		"BR": "male",
+		"SR": "female",
+		"SN": "male",
+		"D": "female",
+		"CN": "any",
+		"CH": "any",
+		"AX": "male",
+		"BX": "female",
+		"X": "none"
+};
+
+function createRandomPicker(rng=defaultRng) {
+    return function randomPicker(arr) {
+        if(!arr) {
+            return null;
+        }
+        if(arr.length == 0)
+            return null;
+        if(arr.length == 1)
+            return arr[0];
+        
+        let min = 0;
+        let max = arr.length;
+        let i =Math.floor(rng() * (max - min)) + min;
+        let ret = arr[i];
+        
+        return ret;
+    };
+}
+
+let maleNames = [];
+let femaleNames = [];
+
+function createRandomNamer(rng=defaultRng) {
     
-    let min = 0;
-    let max = arr.length;
-    let i =Math.floor(rng() * (max - min)) + min;
-    let ret = arr[i];
-    //console.log(i, ':', JSON.stringify(ret), '!!!!', JSON.stringify(arr));
-    return ret;
+    return function randomNamer(characterSymbol, symbolDescription, gender) {
+        
+        let arr;
+        if(gender == 'male') {
+            arr = maleNames;
+        } else if(gender == 'female') {
+            arr = femaleNames;
+        } else if(gender == 'any') {
+            
+            if(rng() < 0.5) {
+                arr = maleNames;
+            } else {
+                arr = femaleNames;
+            }
+            
+        } else {
+            return characterSymbol;
+        }
+        
+        let min = 0;
+        let max = arr.length;
+        let i =Math.floor(rng() * (max - min)) + min;
+        let ret = arr[i];
+        
+        arr.splice(i,1);
+        
+        return ret || characterSymbol;
+    };
 }
 
 class PlotGenerator {
 
-    constructor({ seed=null, flipGenders=undefined } = {}) {
-        //seedrandom doesn't expose the seed used, so generate one here
-        this._seed = seed || seedrandom()();
-
-        this._rng = seedrandom(this._seed);
+    constructor({ picker=undefined, namer=undefined, rng=undefined, flipGenders=undefined } = {}) {
         
-        if(flipGenders === undefined) {
-            this._flipGenders = this._rng() < 0.5; //50% chance true/false 
-        } else {
-            this._flipGenders = flipGenders;
-        }
+        this._namer = namer || createRandomNamer();
+        this._picker = picker || createRandomPicker();
+        this._flipGenders = flipGenders;
     }
-
-    get seed() { return this._seed; }
+    
     get flipGenders() { return this._flipGenders; }
     set flipGenders(flip) { this._flipGenders = flip; }
     
     generate() {
+        
+        let flip = this._flipGenders;
+        if(flip === undefined) {
+            flip = this._picker([true, false], 'flip genders');
+        }
         
         let rootTransform = {};
         if(this._flipGenders) {
@@ -67,21 +168,79 @@ class PlotGenerator {
                 "B-9": "A-9"
             };
         }
-
-        let preamble = pick(this._rng, plotto.masterClauseA);
-        let resolution = pick(this._rng, plotto.masterClauseC);
-        let masterPlot = pick(this._rng, plotto.masterClauseB);
+        
+        let preamble = this._picker(plotto.masterClauseA, 'master clause A');
+        let resolution = this._picker(plotto.masterClauseC, 'master clause C');
+        let masterPlot = this._picker(plotto.masterClauseB, 'master clause B');
         
         let subject = [masterPlot.group, ' / ', masterPlot.subgroup, ': ', masterPlot.description].join('');
         
-        let conflict = plotto.conflicts[pick(this._rng, masterPlot.nodes)];
+        let conflict = plotto.conflicts[this._picker(masterPlot.nodes, 'main conflict')];
+        let cast = [];
+        let plot = this._expand(conflict, rootTransform, {leadIns:1, carryOns:1}).replace(/\*/g, '');
         
-        return [
-            subject,
-            preamble,
-            this._expand(conflict, rootTransform, {leadIns:1, carryOns:1}).replace(/\*/g, ''),
-            resolution
-            ].join('\n\n').trim();
+        plot = this._applyNames(plot, cast);
+        
+        return {
+            group: masterPlot.group,
+            subgroup: masterPlot.subgroup,
+            description: masterPlot.description,
+            cast: cast,
+            plot: [
+                preamble,
+                plot,
+                resolution
+            ].join('\n\n').trim()
+        };
+    }
+    
+    _applyNames(text, cast) {
+        
+        //reset default name lists
+        maleNames = require('./data/names_male.json').slice(0);
+        femaleNames = require('./data/names_female.json').slice(0);
+        
+        //randomNamer(characterSymbol, symbolDescription, gender)
+        
+        let nameCache = {};
+        
+        let ks = Object.keys(plotto.characters);
+        if(ks.length > 0) {
+            let pattern = '\\b(?:' + ks.map(function(s) {
+                return '(?:' + regEscape(s) + ')';
+            }).join('|') + ')(?=^|$| |,|\\.)';
+            
+            let rg = new RegExp(pattern, 'g');
+            
+            text = text.replace(rg,(match) => {
+                if(!match || match.length == 0)
+                    return '';
+                
+                let t = plotto.characters[match];
+                if(!t) {
+                    console.log('Could not replace match in template: ' + match);
+                    return match;
+                }
+                
+                let ret = nameCache[match];
+                if(!ret) {
+                    
+                    ret = this._namer(match, t, genderMap[match]);
+                    nameCache[match] = ret;
+                    
+                    cast.push({
+                        symbol: match,
+                        name: ret,
+                        description: t
+                    });
+                }
+                
+                return ret;
+            });
+        }
+        
+        return text;
+        
     }
     
     _expand(item, transform, ctx, start, end) {
@@ -105,9 +264,24 @@ class PlotGenerator {
         if(typeof(item) == "string") {
             ret.push(this._expand(plotto.conflicts[item], null, ctx));
         } else if(Array.isArray(item)) {
-            ret.push(this._expand(pick(this._rng, item), null, ctx));
+            ret.push(this._expand(this._picker(item, 'plot option'), null, ctx));
         } else if(item.conflictid) {
-            ret.push(item.description);
+            
+            if(typeof(item.description) == "string") {
+                ret.push(item.description);
+            } else {
+                for(let subdesc of item.description) {
+                    
+                    if(typeof(subdesc) == "string") {
+                        ret.push(subdesc);
+                    } else {
+                        ret.push(this._expand(subdesc, null, ctx));
+                    }
+                    
+                }
+            }
+            
+            
         } else if(item.v) {
             
             if(item.start || item.end) {
@@ -161,5 +335,5 @@ class PlotGenerator {
     }
 }
 
-
 module.exports = PlotGenerator;
+module.exports.defaultSeed = defaultSeed;

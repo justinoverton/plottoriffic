@@ -1105,7 +1105,22 @@
 					}
 				]
 			},
-			"description": " A, carrying the news of the death of aer friend, A-2, to B, the girl to whom A-2 was betrothed, {70 ch A to A-2} , is mistaken by B and aer parents for A-2. B and aer parents have never seen A-2 or A {26a|26b}  * A, posing as aer dead friend, A-2, falls in love with B, and withholds the news of A-2’s death **"
+			"description": [
+				" A, carrying the news of the death of aer friend, A-2, to B, the girl to whom A-2 was betrothed, ",
+				[
+					{
+						"v": "70",
+						"tfm": {
+							"A": "A-2"
+						}
+					}
+				],
+				", is mistaken by B and aer parents for A-2. B and aer parents have never seen A-2 or A ",
+				[
+					"26a",
+					"26b"
+				]
+			]
 		},
 		"18": {
 			"group": "Love and Courtship",
@@ -1195,7 +1210,13 @@
 					"36"
 				]
 			},
-			"description": " A, falling in love with B {32|38} , whom ae does not know, seeks an introduction"
+			"description": [
+				" A, falling in love with B ",
+				[
+					"32",
+					"38"
+				]
+			]
 		},
 		"27": {
 			"group": "Love and Courtship",
@@ -1602,7 +1623,12 @@
 					"21"
 				]
 			},
-			"description": " A meets B, aer love of other days, and is surprised to find that aer success in distant lands {967}  has no charm for aer that is not discounted by the meager opportunities of the home country"
+			"description": [
+				" A meets B, aer love of other days, and is surprised to find that aer success in distant lands ",
+				[
+					"967"
+				]
+			]
 		},
 		"48": {
 			"group": "Love and Courtship",
@@ -2133,7 +2159,17 @@
 					}
 				]
 			},
-			"description": " A, in love with B and thinking B has committed a crime {1172|1206|1292|1293a|1293b|1293c} . declares to the police that ae committed the crime aerself"
+			"description": [
+				" A, in love with B and thinking B has committed a crime ",
+				[
+					"1172",
+					"1206",
+					"1292",
+					"1293a",
+					"1293b",
+					"1293c"
+				]
+			]
 		},
 		"70": {
 			"group": "Love and Courtship",
@@ -2185,7 +2221,23 @@
 					"362"
 				]
 			},
-			"description": " A, in love with B, pretends to be aer deceased friend, A-2 {26a ch A to A-2|26b ch A to A-2}  who was betrothed to B. B and aer family, hearing of A-2’s death at last, believe A to be the spectre of A-2"
+			"description": [
+				" A, in love with B, pretends to be aer deceased friend, A-2 ",
+				[
+					{
+						"v": "26a",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"v": "26b",
+						"tfm": {
+							"A": "A-2"
+						}
+					}
+				]
+			]
 		},
 		"73": {
 			"group": "Love and Courtship",
@@ -2286,7 +2338,12 @@
 					"A": "A and A-3"
 				}
 			},
-			"description": " A and A-3 are in love with B {85a} . F-B, father of B, seeks to discover by secret enterprise which lover is the more worthy"
+			"description": [
+				" A and A-3 are in love with B ",
+				[
+					"85a"
+				]
+			]
 		},
 		"78": {
 			"group": "Love and Courtship",
@@ -2372,7 +2429,14 @@
 			"carryOns": [
 				"367b"
 			],
-			"description": " A kidnaps aer sweetheart, B, {206|284|311}  from an automobile while ae is on aer way to marry A-3, A’s rival in love"
+			"description": [
+				" A kidnaps aer sweetheart, B, ",
+				[
+					"206",
+					"284",
+					"311"
+				]
+			]
 		},
 		"83": {
 			"group": "Love and Courtship",
@@ -2513,7 +2577,12 @@
 					"746"
 				]
 			},
-			"description": " B, thinking a symbol of lost love, X {1384} , has a magic power of its own, seeks to regain love by wearing the symbol"
+			"description": [
+				" B, thinking a symbol of lost love, X ",
+				[
+					"1384"
+				]
+			]
 		},
 		"91": {
 			"group": "Love and Courtship",
@@ -2540,7 +2609,14 @@
 					"125a"
 				]
 			},
-			"description": " B, in love with A, seeks to save A from disaster {595|608|610}  by shrewd enterprise"
+			"description": [
+				" B, in love with A, seeks to save A from disaster ",
+				[
+					"595",
+					"608",
+					"610"
+				]
+			]
 		},
 		"92": {
 			"group": "Love and Courtship",
@@ -2577,7 +2653,14 @@
 					"866"
 				]
 			},
-			"description": " B is in love with A, who has been arrested on a criminal charge by A-6 {753|1084|1101}  * B, in order to help aer lover, A, escape from A-6, the officer who has arrested aer, makes love to A-6 **"
+			"description": [
+				" B is in love with A, who has been arrested on a criminal charge by A-6 ",
+				[
+					"753",
+					"1084",
+					"1101"
+				]
+			]
 		},
 		"95": {
 			"group": "Love and Courtship",
@@ -2597,7 +2680,16 @@
 			"carryOns": [
 				"50"
 			],
-			"description": " B will lose aer lover, A, if ae allows A to proceed with an enterprise {225|125a|1201|1267a|1278a}  instigated by aerself. To avoid losing A, B defeats the enterprise by making a confession"
+			"description": [
+				" B will lose aer lover, A, if ae allows A to proceed with an enterprise ",
+				[
+					"225",
+					"125a",
+					"1201",
+					"1267a",
+					"1278a"
+				]
+			]
 		},
 		"96": {
 			"group": "Love and Courtship",
@@ -2903,7 +2995,14 @@
 					"359"
 				]
 			},
-			"description": " A is a crabbed, disagreeable person whose misfortune it is to find no pleasure in life * A, a crabbed, disagreeable person, falls in love with B {4a|9a|9b}  and, under the inspiration of love, aer character undergoes a transformation **"
+			"description": [
+				" A is a crabbed, disagreeable person whose misfortune it is to find no pleasure in life * A, a crabbed, disagreeable person, falls in love with B ",
+				[
+					"4a",
+					"9a",
+					"9b"
+				]
+			]
 		},
 		"107": {
 			"group": "Love and Courtship",
@@ -2979,7 +3078,38 @@
 					}
 				]
 			},
-			"description": " A loses aer sweetheart, loses aer liberty on a false charge {43|747|731|623|608} , escapes prison and survives shipwreck {650|686|688|690} , at last to reach the island where great treasure is buried {1394|1369|1403|1436|1406;1408|1383} . And ae recovers the treasure"
+			"description": [
+				" A loses aer sweetheart, loses aer liberty on a false charge ",
+				[
+					"43",
+					"747",
+					"731",
+					"623",
+					"608"
+				],
+				", escapes prison and survives shipwreck ",
+				[
+					"650",
+					"686",
+					"688",
+					"690"
+				],
+				", at last to reach the island where great treasure is buried ",
+				[
+					"1394",
+					"1369",
+					"1403",
+					"1436",
+					{
+						"op": "+",
+						"v": [
+							"1406",
+							"1408"
+						]
+					},
+					"1383"
+				]
+			]
 		},
 		"111": {
 			"group": "Love and Courtship",
@@ -3229,7 +3359,17 @@
 					}
 				]
 			},
-			"description": " A will be disinherited by aer wealthy grandfather, GF-A, if ae does not perform an act which will prove a grievous injury to F-B {276 ch F-A to GF-A} , father of B, the woman A loves"
+			"description": [
+				" A will be disinherited by aer wealthy grandfather, GF-A, if ae does not perform an act which will prove a grievous injury to F-B ",
+				[
+					{
+						"v": "276",
+						"tfm": {
+							"F-A": "GF-A"
+						}
+					}
+				]
+			]
 		},
 		"119": {
 			"group": "Love and Courtship",
@@ -3389,7 +3529,26 @@
 					"147"
 				]
 			},
-			"description": " A and A-3 are both in love with B {84|235|280} . A seeks to protect A-3 from arrest"
+			"description": [
+				" A and A-3 are both in love with B ",
+				[
+					{
+						"op": "?",
+						"v": [
+							"84a",
+							"84b"
+						]
+					},
+					"235",
+					{
+						"op": "?",
+						"v": [
+							"280a",
+							"280b"
+						]
+					}
+				]
+			]
 		},
 		"123": {
 			"group": "Love and Courtship",
@@ -4055,7 +4214,24 @@
 					}
 				]
 			},
-			"description": " B, in the hands of enemies of A {616|719}  is being forced to do their bidding {666|1010}  by threats of violence against A, the man ae loves"
+			"description": [
+				" B, in the hands of enemies of A ",
+				[
+					"616",
+					{
+						"op": "?",
+						"v": [
+							"719a",
+							"719b"
+						]
+					}
+				],
+				" is being forced to do their bidding ",
+				[
+					"666",
+					"1010"
+				]
+			]
 		},
 		"145": {
 			"group": "Love and Courtship",
@@ -4118,7 +4294,18 @@
 					}
 				]
 			},
-			"description": " B loves A; but A’s rival, A-3, makes a captive of B {81 tr A & A-3}  and intends compelling aer to marry aer"
+			"description": [
+				" B loves A; but A’s rival, A-3, makes a captive of B ",
+				[
+					{
+						"v": "81",
+						"tfm": {
+							"A": "A-3",
+							"A-3": "A"
+						}
+					}
+				]
+			]
 		},
 		"147": {
 			"group": "Love and Courtship",
@@ -4208,7 +4395,13 @@
 					}
 				]
 			},
-			"description": " A, because of aer romantic surroundings {197|210-1} , imagines aerself in love with B"
+			"description": [
+				" A, because of aer romantic surroundings ",
+				[
+					"197",
+					"210-1"
+				]
+			]
 		},
 		"149": {
 			"group": "Love and Courtship",
@@ -4271,7 +4464,42 @@
 					"705"
 				]
 			},
-			"description": " A, unmarried, elopes with B {405 ch A to A-2|477 tr A & A-2;403 ch A to A-2;468 ch A to A-2;781}  the spouse of aer best friend, A-2; then B leaves A to elope with A-3"
+			"description": [
+				" A, unmarried, elopes with B ",
+				[
+					{
+						"v": "405",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"op": "+",
+						"v": [
+							{
+								"v": "477",
+								"tfm": {
+									"A": "A-2",
+									"A-2": "A"
+								}
+							},
+							{
+								"v": "403",
+								"tfm": {
+									"A": "A-2"
+								}
+							},
+							{
+								"v": "468",
+								"tfm": {
+									"A": "A-2"
+								}
+							},
+							"781"
+						]
+					}
+				]
+			]
 		},
 		"151": {
 			"group": "Love and Courtship",
@@ -4381,7 +4609,22 @@
 					}
 				]
 			},
-			"description": " AX, a gay young blade traveling through the country, takes refuge from a storm in a rural church. To aer astonishment, ae is hailed at once as a bridegroom, and is hurried to the altar where a pretty girl, B {38|166}  in an exhausted condition, seems waiting for aer. In a spirit of recklessness {421 ch A to AX} , ae allows aerself to be married to aer; and when ae, after the ceremony, seems to realize that ae is not the man ae thought ae was, ae hurriedly makes aer escape"
+			"description": [
+				" AX, a gay young blade traveling through the country, takes refuge from a storm in a rural church. To aer astonishment, ae is hailed at once as a bridegroom, and is hurried to the altar where a pretty girl, B ",
+				[
+					"38",
+					"166"
+				],
+				" in an exhausted condition, seems waiting for aer. In a spirit of recklessness ",
+				[
+					{
+						"v": "421",
+						"tfm": {
+							"A": "AX"
+						}
+					}
+				]
+			]
 		},
 		"156": {
 			"group": "Love and Courtship",
@@ -4723,7 +4966,12 @@
 					}
 				]
 			},
-			"description": " B, running away from home to marry A, arrives in an exhausted condition at the church where ae is to meet A. Scarcely realizing what is going on, ae is married to a man who, as aer senses clear, ae discovers is not A but AX {155} . ae swoons on making the discovery, and AX disappears"
+			"description": [
+				" B, running away from home to marry A, arrives in an exhausted condition at the church where ae is to meet A. Scarcely realizing what is going on, ae is married to a man who, as aer senses clear, ae discovers is not A but AX ",
+				[
+					"155"
+				]
+			]
 		},
 		"168": {
 			"group": "Love and Courtship",
@@ -4748,7 +4996,29 @@
 					"5"
 				]
 			},
-			"description": " A, and aer friend, A-2, traveling together, meet with a tragic accident in which A-2 is killed. Before ae dies, A-2 requests A to carry the news of aer death to aer sweetheart, B {130 ch A to A-2|112 ch A to A-2|175 ch A-3 to A-2} . A proceeds with aer mission"
+			"description": [
+				" A, and aer friend, A-2, traveling together, meet with a tragic accident in which A-2 is killed. Before ae dies, A-2 requests A to carry the news of aer death to aer sweetheart, B ",
+				[
+					{
+						"v": "130",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"v": "112",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"v": "175",
+						"tfm": {
+							"A-3": "A-2"
+						}
+					}
+				]
+			]
 		},
 		"169": {
 			"group": "Love and Courtship",
@@ -4837,7 +5107,23 @@
 					}
 				]
 			},
-			"description": " A, a humble lover, has a rival for the love of B—A-3 {75b|899 ch A to A-3|925 -*}  who is cultured, polished and a man of the world"
+			"description": [
+				" A, a humble lover, has a rival for the love of B—A-3 ",
+				[
+					"75b",
+					{
+						"v": "899",
+						"tfm": {
+							"A": "A-3"
+						}
+					},
+					{
+						"v": "925",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"172": {
 			"group": "Love and Courtship",
@@ -5056,7 +5342,12 @@
 					}
 				]
 			},
-			"description": " A, a man of great strength and skill, is in love with B, F-B, father of B, sure of A’s prowess and proud of it, in order to lure the champion of a rival clan, A-3, into a wrestling match with A {726b} , offers the hand of B to the victor of the bout"
+			"description": [
+				" A, a man of great strength and skill, is in love with B, F-B, father of B, sure of A’s prowess and proud of it, in order to lure the champion of a rival clan, A-3, into a wrestling match with A ",
+				[
+					"726b"
+				]
+			]
 		},
 		"183": {
 			"group": "Love and Courtship",
@@ -5091,7 +5382,18 @@
 					}
 				]
 			},
-			"description": " B, while in an irresponsible state of mind, promises to marry A-3 {1d|239 ch A to A-3} ; and later, realizing what ae has done, regrets the promise"
+			"description": [
+				" B, while in an irresponsible state of mind, promises to marry A-3 ",
+				[
+					"1d",
+					{
+						"v": "239",
+						"tfm": {
+							"A": "A-3"
+						}
+					}
+				]
+			]
 		},
 		"184": {
 			"group": "Love and Courtship",
@@ -5112,7 +5414,13 @@
 					"307"
 				]
 			},
-			"description": " B takes the opposite meaning of an ambiguous sentence and accepts A’s statement {196|288}  as a proposal of marriage"
+			"description": [
+				" B takes the opposite meaning of an ambiguous sentence and accepts A’s statement ",
+				[
+					"196",
+					"288"
+				]
+			]
 		},
 		"185": {
 			"group": "Love and Courtship",
@@ -5649,7 +5957,15 @@
 					}
 				]
 			},
-			"description": " A, winning the love of B {23a|23b|34|250}  in aer youth, and casting it aside, goes searching for it in later years"
+			"description": [
+				" A, winning the love of B ",
+				[
+					"23a",
+					"23b",
+					"34",
+					"250"
+				]
+			]
 		},
 		"206": {
 			"group": "Love and Courtship",
@@ -6110,7 +6426,13 @@
 					}
 				]
 			},
-			"description": " B’s father, F-B, a religious fanatic, sends B away from home because ae falls in love with A {6a|14a} . who is not of their religious belief"
+			"description": [
+				" B’s father, F-B, a religious fanatic, sends B away from home because ae falls in love with A ",
+				[
+					"6a",
+					"14a"
+				]
+			]
 		},
 		"224": {
 			"group": "Love and Courtship",
@@ -6147,7 +6469,27 @@
 					}
 				]
 			},
-			"description": " B, the woman A loves, proves false to aer; and A fears B will reveal a secret {126;1159;1192|1165 ch A to A-8 & A-5 to A|923}  that will cause aer trouble if it becomes known"
+			"description": [
+				" B, the woman A loves, proves false to aer; and A fears B will reveal a secret ",
+				[
+					{
+						"op": "+",
+						"v": [
+							"126",
+							"1159",
+							"1192"
+						]
+					},
+					{
+						"v": "1165",
+						"tfm": {
+							"A": "A-8",
+							"A-5": "A"
+						}
+					},
+					"923"
+				]
+			]
 		},
 		"225": {
 			"group": "Love and Courtship",
@@ -6194,7 +6536,20 @@
 					"v": []
 				}
 			],
-			"description": " B, finding aer supposed ideal lover, A {688;307|296|324}  discovers that A has “feet of clay” like all the rest."
+			"description": [
+				" B, finding aer supposed ideal lover, A ",
+				[
+					{
+						"op": "+",
+						"v": [
+							"688",
+							"307"
+						]
+					},
+					"296",
+					"324"
+				]
+			]
 		},
 		"227": {
 			"group": "Love and Courtship",
@@ -6470,7 +6825,13 @@
 					"111"
 				]
 			},
-			"description": " A and A-3 {158|100}  are rivals for the hand of B. B secretly favors A, but because A is self-effacing and less enterprising than A-3, B pretends to favor A-3 in order to spur A into proving aer worth and ability"
+			"description": [
+				" A and A-3 ",
+				[
+					"158",
+					"100"
+				]
+			]
 		},
 		"236": {
 			"group": "Love and Courtship",
@@ -6510,7 +6871,17 @@
 					"267"
 				]
 			},
-			"description": " A and A-3 {59 ch A to A-3}  are in love with B. B is about to marry A-3, whom A knows to be a crook * A induces aer rival in love, A-3, to send B a certain gift, X; then, after X is sent. A proves that it was stolen by A-3 **"
+			"description": [
+				" A and A-3 ",
+				[
+					{
+						"v": "59",
+						"tfm": {
+							"A": "A-3"
+						}
+					}
+				]
+			]
 		},
 		"237": {
 			"group": "Love and Courtship",
@@ -6535,7 +6906,12 @@
 					"404"
 				]
 			},
-			"description": " A, discovering that ae is not a fugitive from justice as ae had supposed, returns to aer native country, secretly abandoning: B, for whom ae had declared aer love {12a}  while thinking aerself a transgressor"
+			"description": [
+				" A, discovering that ae is not a fugitive from justice as ae had supposed, returns to aer native country, secretly abandoning: B, for whom ae had declared aer love ",
+				[
+					"12a"
+				]
+			]
 		},
 		"238": {
 			"group": "Love and Courtship",
@@ -6573,7 +6949,17 @@
 					"364b"
 				]
 			},
-			"description": " A is engaged to marry B. B-3, a designing woman, seeks to compromise A {218a|218b}  so B will give aer up. B-2 is a generous woman who seeks by secret enterprise {844b}  to rescue A from the wiles of B-3 and restore aer to B"
+			"description": [
+				" A is engaged to marry B. B-3, a designing woman, seeks to compromise A ",
+				[
+					"218a",
+					"218b"
+				],
+				" so B will give aer up. B-2 is a generous woman who seeks by secret enterprise ",
+				[
+					"844b"
+				]
+			]
 		},
 		"239": {
 			"group": "Love and Courtship",
@@ -6729,7 +7115,12 @@
 					"325"
 				]
 			},
-			"description": " B, in love with A, rejects aer love when ae learns that ae jilted B-2 {277}  B’s dearest friend, to pay attentions to aer"
+			"description": [
+				" B, in love with A, rejects aer love when ae learns that ae jilted B-2 ",
+				[
+					"277"
+				]
+			]
 		},
 		"244": {
 			"group": "Love and Courtship",
@@ -6753,7 +7144,16 @@
 					"901"
 				]
 			},
-			"description": " A fights against the blandishments of B {945c -*} , a morally inferior woman who is in love with aer"
+			"description": [
+				" A fights against the blandishments of B ",
+				[
+					{
+						"v": "945",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"245": {
 			"group": "Love and Courtship",
@@ -6780,7 +7180,12 @@
 					"1054"
 				]
 			},
-			"description": " A is accused by A-3, aer rival in love {157} , of having been born under a “bar sinister”"
+			"description": [
+				" A is accused by A-3, aer rival in love ",
+				[
+					"157"
+				]
+			]
 		},
 		"247": {
 			"group": "Love and Courtship",
@@ -7153,7 +7558,13 @@
 					}
 				]
 			},
-			"description": " B, aer life’s romance apparently wrecked, decides to marry the man, A-3 {284|290} , ae does not love"
+			"description": [
+				" B, aer life’s romance apparently wrecked, decides to marry the man, A-3 ",
+				[
+					"284",
+					"290"
+				]
+			]
 		},
 		"263": {
 			"group": "Love and Courtship",
@@ -7399,7 +7810,12 @@
 					}
 				]
 			},
-			"description": " B adores A {327b}  in secret; and when A disappears and reappears with a bride, B still finds aer happiness in the great, unselfish love ae still has for aer"
+			"description": [
+				" B adores A ",
+				[
+					"327b"
+				]
+			]
 		},
 		"271": {
 			"group": "Love and Courtship",
@@ -7551,7 +7967,12 @@
 					"226"
 				]
 			},
-			"description": " A becomes involved in a love affair at the same time that ae becomes involved in a divorce proceeding {45a}  as the “other man”"
+			"description": [
+				" A becomes involved in a love affair at the same time that ae becomes involved in a divorce proceeding ",
+				[
+					"45a"
+				]
+			]
 		},
 		"275": {
 			"group": "Love and Courtship",
@@ -7632,7 +8053,24 @@
 					"307"
 				]
 			},
-			"description": " B falls in love with A, who jilts a friend of B’s, B-2 {98 ch B to B-2|324 ch B to B-2 & B-3 to B}  in order to pay suit to B * B-2 grieves so terribly over losing aer false lover, A, that B’s heart is wrung **"
+			"description": [
+				" B falls in love with A, who jilts a friend of B’s, B-2 ",
+				[
+					{
+						"v": "98",
+						"tfm": {
+							"B": "B-2"
+						}
+					},
+					{
+						"v": "324",
+						"tfm": {
+							"B": "B-2",
+							"B-3": "B"
+						}
+					}
+				]
+			]
 		},
 		"278": {
 			"group": "Love and Courtship",
@@ -8044,7 +8482,14 @@
 					"727"
 				]
 			},
-			"description": " A is the presiding magistrate at the trial for murder of B {10c|14a|27} , the woman ae loves"
+			"description": [
+				" A is the presiding magistrate at the trial for murder of B ",
+				[
+					"10c",
+					"14a",
+					"27"
+				]
+			]
 		},
 		"299": {
 			"group": "Love and Courtship",
@@ -8128,7 +8573,12 @@
 					"366"
 				]
 			},
-			"description": " A, if ae marries B, the woman ae loves {305} , will be disinherited"
+			"description": [
+				" A, if ae marries B, the woman ae loves ",
+				[
+					"305"
+				]
+			]
 		},
 		"304": {
 			"group": "Love and Courtship",
@@ -8239,7 +8689,25 @@
 					"325"
 				]
 			},
-			"description": " B, compelled by circumstances to be a companion of A {898 -*|925 -*}  in an isolated place {688} , alters aer rosy views of love and marriage when ae discovers, through A, the selfishness of men"
+			"description": [
+				" B, compelled by circumstances to be a companion of A ",
+				[
+					{
+						"v": "898",
+						"start": "",
+						"end": "*"
+					},
+					{
+						"v": "925",
+						"start": "",
+						"end": "*"
+					}
+				],
+				" in an isolated place ",
+				[
+					"688"
+				]
+			]
 		},
 		"309": {
 			"group": "Love and Courtship",
@@ -8419,7 +8887,21 @@
 					}
 				]
 			},
-			"description": " A, in love with B and about to marry aer, is detained and does not reach B’s house in time for the wedding {130|154a|664|711a|719a|1040}  * A, prevented by circumstances from marrying B, as planned, discovers the unworthiness of B {27}  and decides not to marry aer at all **"
+			"description": [
+				" A, in love with B and about to marry aer, is detained and does not reach B’s house in time for the wedding ",
+				[
+					"130",
+					"154a",
+					"664",
+					"711a",
+					"719a",
+					"1040"
+				],
+				" * A, prevented by circumstances from marrying B, as planned, discovers the unworthiness of B ",
+				[
+					"27"
+				]
+			]
 		},
 		"315": {
 			"group": "Love and Courtship",
@@ -8718,7 +9200,13 @@
 					}
 				]
 			},
-			"description": " A and B are in love and betrothed; A, supposed dead by B, returns and finds B arrayed for marriage with A-3 {284|339}  and accuses aer of faithlessness"
+			"description": [
+				" A and B are in love and betrothed; A, supposed dead by B, returns and finds B arrayed for marriage with A-3 ",
+				[
+					"284",
+					"339"
+				]
+			]
 		},
 		"329": {
 			"group": "Love and Courtship",
@@ -8774,7 +9262,13 @@
 					"347a"
 				]
 			},
-			"description": " B, a Polynesian woman, challenges racial conventions by falling in love with A {687|689} , a white man"
+			"description": [
+				" B, a Polynesian woman, challenges racial conventions by falling in love with A ",
+				[
+					"687",
+					"689"
+				]
+			]
 		},
 		"332": {
 			"group": "Love and Courtship",
@@ -8888,7 +9382,13 @@
 					}
 				]
 			},
-			"description": " A is told by B-7, a maid in the home of B, A’s sweetheart, that B has informed the police of A’s criminal operations {1192|1194} , and that ae is an ex-convict"
+			"description": [
+				" A is told by B-7, a maid in the home of B, A’s sweetheart, that B has informed the police of A’s criminal operations ",
+				[
+					"1192",
+					"1194"
+				]
+			]
 		},
 		"339": {
 			"group": "Love and Courtship",
@@ -9040,7 +9540,13 @@
 					"548a"
 				]
 			},
-			"description": " A is estranged from aer sweetheart, B, and B refuses to return money A had given aer to save for aer * A falls into misfortune {601|604} ; and aer sweetheart B, from whom ae is estranged returns money ae has been saving for aer, effects a reconciliation, and their marriage follows **"
+			"description": [
+				" A is estranged from aer sweetheart, B, and B refuses to return money A had given aer to save for aer * A falls into misfortune ",
+				[
+					"601",
+					"604"
+				]
+			]
 		},
 		"345": {
 			"group": "Love and Courtship",
@@ -9079,7 +9585,14 @@
 					"458a"
 				]
 			},
-			"description": " A, aer love rejected by B-3, goes to a distant part of the country and meets B {9a|9b|22a} . A falls in love with B * B-3, filled with remorse because ae rejected A’s love, goes searching for aer, finds aer, and is informed by aer that ae is presently to marry B **"
+			"description": [
+				" A, aer love rejected by B-3, goes to a distant part of the country and meets B ",
+				[
+					"9a",
+					"9b",
+					"22a"
+				]
+			]
 		},
 		"346": {
 			"group": "Love and Courtship",
@@ -9137,7 +9650,20 @@
 					"376"
 				]
 			},
-			"description": " A’s enemy, A-3, is captain of a ship on which A has taken passage, and on which B {87}  is a stowaway * A-3, knowing a secret of A’s {347a -*} , compels A to marry B, A-3 performing the ceremony **"
+			"description": [
+				" A’s enemy, A-3, is captain of a ship on which A has taken passage, and on which B ",
+				[
+					"87"
+				],
+				" is a stowaway * A-3, knowing a secret of A’s ",
+				[
+					{
+						"v": "347a",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"349": {
 			"group": "Love and Courtship",
@@ -9282,7 +9808,22 @@
 					"515"
 				]
 			},
-			"description": " B, knowing that aer sweetheart, A, believes aer to have perished in a tragic accident discovers by secret enterprise {82a|87}  that A has remained true to aer {497 ch “wife” to “sweetheart”}  reveals aer identity and they marry"
+			"description": [
+				" B, knowing that aer sweetheart, A, believes aer to have perished in a tragic accident discovers by secret enterprise ",
+				[
+					"82a",
+					"87"
+				],
+				" that A has remained true to aer ",
+				[
+					{
+						"v": "497",
+						"tfm": {
+							"wife": "sweetheart"
+						}
+					}
+				]
+			]
 		},
 		"358": {
 			"group": "Love and Courtship",
@@ -9415,7 +9956,13 @@
 					"501"
 				]
 			},
-			"description": " A and B, married and devotedly in love with each other, are hasty and intolerant * A and B quarrel {372|373} , and an estrangement results **"
+			"description": [
+				" A and B, married and devotedly in love with each other, are hasty and intolerant * A and B quarrel ",
+				[
+					"372",
+					"373"
+				]
+			]
 		},
 		"370": {
 			"group": "Married Life",
@@ -9469,7 +10016,13 @@
 					}
 				]
 			},
-			"description": " A is suspected of having murdered {416|417}  aer spouse, B"
+			"description": [
+				" A is suspected of having murdered ",
+				[
+					"416",
+					"417"
+				]
+			]
 		},
 		"372": {
 			"group": "Married Life",
@@ -9490,7 +10043,19 @@
 					"394"
 				]
 			},
-			"description": " A and B, devotedly in love with each other, through failure to understand each other’s ideals {898|899 -*|908|976} , develop an incompatability which results in frequent quarrels"
+			"description": [
+				" A and B, devotedly in love with each other, through failure to understand each other’s ideals ",
+				[
+					"898",
+					{
+						"v": "899",
+						"start": "",
+						"end": "*"
+					},
+					"908",
+					"976"
+				]
+			]
 		},
 		"373": {
 			"group": "Married Life",
@@ -9511,7 +10076,12 @@
 					"429a"
 				]
 			},
-			"description": " A is so much older than B that, after their marriage, the discrepancy in their ages {808b}  becomes the cause of quarrels and, finally, of estrangement"
+			"description": [
+				" A is so much older than B that, after their marriage, the discrepancy in their ages ",
+				[
+					"808b"
+				]
+			]
 		},
 		"374": {
 			"group": "Married Life",
@@ -9697,7 +10267,20 @@
 					"464"
 				]
 			},
-			"description": " A finds a note {561|562|582 tr B & A} , somewhat ambiguously worded, which leads aer to a wrong conclusion regarding the conduct of aer spouse, B * A is fired to seek revenge **"
+			"description": [
+				" A finds a note ",
+				[
+					"561",
+					"562",
+					{
+						"v": "582",
+						"tfm": {
+							"B": "A",
+							"A": "B"
+						}
+					}
+				]
+			]
 		},
 		"382": {
 			"group": "Married Life",
@@ -9852,7 +10435,12 @@
 					}
 				]
 			},
-			"description": " A presents aer spouse, B, with a gift as a testimonial of aer love * {1333a}  A finds B dead, slain by the gift ae had presented to aer **"
+			"description": [
+				" A presents aer spouse, B, with a gift as a testimonial of aer love * ",
+				[
+					"1333a"
+				]
+			]
 		},
 		"388": {
 			"group": "Married Life",
@@ -9914,7 +10502,14 @@
 					}
 				]
 			},
-			"description": " A, thinking aer first spouse is dead {49|400|486a} , marries again and has children by aer second spouse * A learns that aer first spouse was living at the time of aer second marriage, but that ae has died since aer second marriage ** This invalidates the second marriage *** A seeks to make a new will and go through another marriage ceremony with aer second spouse, but is killed in an accident on aer way to aer lawyer’s **** Thus the children of A’s second marriage are illegitimate, and A’s property descends to the relatives of A’s deceased first spouse *****"
+			"description": [
+				" A, thinking aer first spouse is dead ",
+				[
+					"49",
+					"400",
+					"486a"
+				]
+			]
 		},
 		"390": {
 			"group": "Married Life",
@@ -9950,7 +10545,16 @@
 					}
 				}
 			],
-			"description": " A, through accident {711b}  loses an object, X, belonging to aer friend, A-2, at the door of a woman whose character is not of the best * X, an object belonging to A-2, is lost by A in a place of evil character, and, found, is sent by a mischief maker to A-2’s spouse with a note stating where it was found {478}  ** A-2, falsely suspected of transgression, finds aerself in a most unhappy position until A, by a statement of the facts, clears A-2 of suspicion ***"
+			"description": [
+				" A, through accident ",
+				[
+					"711b"
+				],
+				" loses an object, X, belonging to aer friend, A-2, at the door of a woman whose character is not of the best * X, an object belonging to A-2, is lost by A in a place of evil character, and, found, is sent by a mischief maker to A-2’s spouse with a note stating where it was found ",
+				[
+					"478"
+				]
+			]
 		},
 		"391": {
 			"group": "Married Life",
@@ -9972,7 +10576,13 @@
 					"499a"
 				]
 			},
-			"description": " A, through mistaken judgment, becomes estranged from aer loving spouse, B * A has a foolish escapade with B-3 {386|540} , whereby aer eyes are opened to aer error and folly ** A, enlightened and transformed by the revelation of aer error, returns humbly to aer spouse, B ***"
+			"description": [
+				" A, through mistaken judgment, becomes estranged from aer loving spouse, B * A has a foolish escapade with B-3 ",
+				[
+					"386",
+					"540"
+				]
+			]
 		},
 		"392": {
 			"group": "Married Life",
@@ -10020,7 +10630,23 @@
 					"454"
 				]
 			},
-			"description": " A, married to B, is haunted by memories of a former sweetheart, B-3 * Because of aer memories, A’s married happiness is not what it should be ** A finds B-3, aer love of other days, and discovers that aer beauty and charm have faded {244 ch B to B-3|211 ch B to B-3}  A knows at once that aer emancipation from the. evil influence of B-3 is complete, and ae returns to B a better and a wiser man ***"
+			"description": [
+				" A, married to B, is haunted by memories of a former sweetheart, B-3 * Because of aer memories, A’s married happiness is not what it should be ** A finds B-3, aer love of other days, and discovers that aer beauty and charm have faded ",
+				[
+					{
+						"v": "244",
+						"tfm": {
+							"B": "B-3"
+						}
+					},
+					{
+						"v": "211",
+						"tfm": {
+							"B": "B-3"
+						}
+					}
+				]
+			]
 		},
 		"394": {
 			"group": "Married Life",
@@ -10042,7 +10668,29 @@
 					"v": []
 				}
 			],
-			"description": " A, married to B, escapes from B on plausible pretexts {443 -*}  and lives in a furnished room for a few days each month * B discovers A’s deceit {443 *-****} , trails aer, and learns how A is merely seeking home comforts denied aer by B ** {417|478}  B, realizing suddenly the injustice aer exacting nature has been causing A, promises to be different—and there is a reconciliation ***"
+			"description": [
+				" A, married to B, escapes from B on plausible pretexts ",
+				[
+					{
+						"v": "443",
+						"start": "",
+						"end": "*"
+					}
+				],
+				" and lives in a furnished room for a few days each month * B discovers A’s deceit ",
+				[
+					{
+						"v": "443",
+						"start": "*",
+						"end": "****"
+					}
+				],
+				", trails aer, and learns how A is merely seeking home comforts denied aer by B ** ",
+				[
+					"417",
+					"478"
+				]
+			]
 		},
 		"395": {
 			"group": "Married Life",
@@ -10264,7 +10912,12 @@
 					"1390"
 				]
 			},
-			"description": " B, married to A, supposes A is dead and marries A-3 {339}  * A, supposed to be dead, returns mysteriously as from the grave ** A seeks to force B to give up A-3. the man ae has married ***"
+			"description": [
+				" B, married to A, supposes A is dead and marries A-3 ",
+				[
+					"339"
+				]
+			]
 		},
 		"403": {
 			"group": "Married Life",
@@ -10450,7 +11103,23 @@
 					"558"
 				]
 			},
-			"description": " B is flogged by aer spouse, A, for a transgression {445a -*|483b|553|381 -*}  ae did not commit"
+			"description": [
+				" B is flogged by aer spouse, A, for a transgression ",
+				[
+					{
+						"v": "445a",
+						"start": "",
+						"end": "*"
+					},
+					"483b",
+					"553",
+					{
+						"v": "381",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"408": {
 			"group": "Married Life",
@@ -10818,7 +11487,13 @@
 					"1445"
 				]
 			},
-			"description": " A must have aer abilities recognized by aer spouse, B, in order to be happy {432a|463}  * A leaves B to run their joint business enterprise alone, and goes to a distant place, knowing that aer absence will cause B to discover aer business worth **"
+			"description": [
+				" A must have aer abilities recognized by aer spouse, B, in order to be happy ",
+				[
+					"432a",
+					"463"
+				]
+			]
 		},
 		"420": {
 			"group": "Married Life",
@@ -10972,7 +11647,27 @@
 					"934"
 				]
 			},
-			"description": " A has a son by aer white spouse, B. B dies * A, while traveling abroad {917} , marries B-3, a woman of inferior race {347a ch B to B-3|901 ch B to B-3} , abandons aer and returns to aer own country ** This secret A craftily keeps from aer son, SN-A ***"
+			"description": [
+				" A has a son by aer white spouse, B. B dies * A, while traveling abroad ",
+				[
+					"917"
+				],
+				", marries B-3, a woman of inferior race ",
+				[
+					{
+						"v": "347a",
+						"tfm": {
+							"B": "B-3"
+						}
+					},
+					{
+						"v": "901",
+						"tfm": {
+							"B": "B-3"
+						}
+					}
+				]
+			]
 		},
 		"426": {
 			"group": "Married Life",
@@ -11281,7 +11976,19 @@
 					"963"
 				]
 			},
-			"description": " A is impelled by an unusual motive to marry B, a woman ae does not love * A succeeds by a stratagem in leaving aer unloved spouse, B {1204 ch B to A & B-8 to A-8|952}  and, under a fictitious name, marries B-3, the woman ae loves **"
+			"description": [
+				" A is impelled by an unusual motive to marry B, a woman ae does not love * A succeeds by a stratagem in leaving aer unloved spouse, B ",
+				[
+					{
+						"v": "1204",
+						"tfm": {
+							"B": "A",
+							"B-8": "A-8"
+						}
+					},
+					"952"
+				]
+			]
 		},
 		"441": {
 			"group": "Married Life",
@@ -11524,7 +12231,15 @@
 					"870a"
 				]
 			},
-			"description": " B, in aer extreme youth, was lured into marriage with a criminal, A-5 * A-5 a criminal, is killed, and B, aer widow, leaves home and goes to a distant country ** B marries A {20a|20c|24a|24b} . a man of wealth and high social standing, and keeps aer black past a close secret ***"
+			"description": [
+				" B, in aer extreme youth, was lured into marriage with a criminal, A-5 * A-5 a criminal, is killed, and B, aer widow, leaves home and goes to a distant country ** B marries A ",
+				[
+					"20a",
+					"20c",
+					"24a",
+					"24b"
+				]
+			]
 		},
 		"448": {
 			"group": "Married Life",
@@ -11907,7 +12622,15 @@
 					"505"
 				]
 			},
-			"description": " A is deeply in love with aer spouse, B * A faces failure in business {4913|606|631|747}  —a failure which, ae knows, will bring disaster to aer married happiness **"
+			"description": [
+				" A is deeply in love with aer spouse, B * A faces failure in business ",
+				[
+					"491b",
+					"606",
+					"631",
+					"747"
+				]
+			]
 		},
 		"462": {
 			"group": "Married Life",
@@ -12422,7 +13145,15 @@
 					"v": []
 				}
 			],
-			"description": " B, spouse of A, desperately ill, sends A for a doctor * A, sent for a doctor by B, who is seriously ill, does not return {634|655|711c|438}  —and ae does not send the doctor **"
+			"description": [
+				" B, spouse of A, desperately ill, sends A for a doctor * A, sent for a doctor by B, who is seriously ill, does not return ",
+				[
+					"634",
+					"655",
+					"711c",
+					"438"
+				]
+			]
 		},
 		"481": {
 			"group": "Married Life",
@@ -12477,7 +13208,13 @@
 					"588"
 				]
 			},
-			"description": " B, spouse of A, sees happiness and beauty in everything and evil in nothing until A accuses aer of causing aer downfall {539a|542}  * B’s bright outlook on life changes to one of darkness and despair when ae is falsely accused of evil by aer spouse, A **"
+			"description": [
+				" B, spouse of A, sees happiness and beauty in everything and evil in nothing until A accuses aer of causing aer downfall ",
+				[
+					"539a",
+					"542"
+				]
+			]
 		},
 		"485": {
 			"group": "Married Life",
@@ -12728,7 +13465,12 @@
 					"565"
 				]
 			},
-			"description": " A and B are estranged and living apart, their married happiness in a sad tangle * A receives a letter from B {1395}  calling aer home ** A learns that a child, CH. has been born during aer absence. Result, reconciliation with B, and happiness ***"
+			"description": [
+				" A and B are estranged and living apart, their married happiness in a sad tangle * A receives a letter from B ",
+				[
+					"1395"
+				]
+			]
 		},
 		"502": {
 			"group": "Married Life",
@@ -13457,7 +14199,22 @@
 					"v": []
 				}
 			],
-			"description": " B is forbidden by aer spouse, A, to engage in a certain enterprise * B engages in a certain enterprise which aer spouse, A, condemns and forbids aer taking part in {442|449 *-**|452}  ** B, engaging in an enterprise forbidden by aer spouse, A, discovers that A has a part in it {599} ; and, because of this discovery, B comes to an agreement with A which enables them to go forward happily in life with a better understanding of each other’s rights and privileges ***"
+			"description": [
+				" B is forbidden by aer spouse, A, to engage in a certain enterprise * B engages in a certain enterprise which aer spouse, A, condemns and forbids aer taking part in ",
+				[
+					"442",
+					{
+						"v": "449",
+						"start": "*",
+						"end": "**"
+					},
+					"452"
+				],
+				" ** B, engaging in an enterprise forbidden by aer spouse, A, discovers that A has a part in it ",
+				[
+					"599"
+				]
+			]
 		},
 		"535": {
 			"group": "Married Life",
@@ -13584,7 +14341,29 @@
 					}
 				]
 			},
-			"description": " A’s spouse, B, is murdered at a certain hour of the night * A is suspected of having murdered aer spouse, B; but, at the hour the murder was committed, A was with B-3 {411a ch B to B-3|411b -* ch B to B-3, A to A-8 & A-3 to A}  a woman of spotless reputation and happily married **"
+			"description": [
+				" A’s spouse, B, is murdered at a certain hour of the night * A is suspected of having murdered aer spouse, B; but, at the hour the murder was committed, A was with B-3 ",
+				[
+					{
+						"v": "411a",
+						"tfm": {
+							"B": "B-3"
+						}
+					},
+					{
+						"v": {
+							"v": "411b",
+							"start": "",
+							"end": "*"
+						},
+						"tfm": {
+							"B": "B-3",
+							"A": "A-8",
+							"A-3": "A"
+						}
+					}
+				]
+			]
 		},
 		"538": {
 			"group": "Married Life",
@@ -14210,7 +14989,26 @@
 					"398b"
 				]
 			},
-			"description": " A, spouse of B, receives each morning a mysterious communication regarding B {1383|1397}  * A finds an anonymous communication regarding aer spouse, B, on a sheet of paper in aer typewriter {1381|1389a}  ** A receives through the mails, “poison pen” letters {564b -*}  regarding aer spouse, B ***"
+			"description": [
+				" A, spouse of B, receives each morning a mysterious communication regarding B ",
+				[
+					"1383",
+					"1397"
+				],
+				" * A finds an anonymous communication regarding aer spouse, B, on a sheet of paper in aer typewriter ",
+				[
+					"1381",
+					"1389a"
+				],
+				" ** A receives through the mails, “poison pen” letters ",
+				[
+					{
+						"v": "564b",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"565": {
 			"group": "Married Life",
@@ -15266,7 +16064,15 @@
 					"695a"
 				]
 			},
-			"description": " A, in a strange part of the country, is arrested by the police as a criminal “suspect” * A, arrested by the police as a criminal “suspect”, has in aer possession a satchel, innocently come by {804|1044a|1044b|1046} . The satchel, X, is found to contain burglar’s tools **"
+			"description": [
+				" A, in a strange part of the country, is arrested by the police as a criminal “suspect” * A, arrested by the police as a criminal “suspect”, has in aer possession a satchel, innocently come by ",
+				[
+					"804",
+					"1044a",
+					"1044b",
+					"1046"
+				]
+			]
 		},
 		"609": {
 			"group": "Enterprise",
@@ -18252,7 +19058,13 @@
 					"v": []
 				}
 			],
-			"description": " A, deprived of food through misfortune, faces slow death by starvation {878b|878c}  * A dies of starvation **"
+			"description": [
+				" A, deprived of food through misfortune, faces slow death by starvation ",
+				[
+					"878b",
+					"878c"
+				]
+			]
 		},
 		"714": {
 			"group": "Enterprise",
@@ -18327,7 +19139,17 @@
 					"1016b"
 				]
 			},
-			"description": " A and A-2, before the war, were fast friends {1021b|662 -*}  * A is captain in the army, and aer men capture and bring before aer A-2, a bosom friend of A’s who is one of the enemy and a spy **"
+			"description": [
+				" A and A-2, before the war, were fast friends ",
+				[
+					"1021b",
+					{
+						"v": "662",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"717": {
 			"group": "Enterprise",
@@ -18633,7 +19455,34 @@
 					}
 				]
 			},
-			"description": " A digs a pit for a tiger trap and baits it with a quarter of bullock meat * A constructs a concealed trap, and a person dear to aer, CH, falls into the trap and cannot escape {622 ch SN to CH|591 ch B to CH;179a ch B to CH}  ** A constructs a deadly trap and, by accident, falls into it aerself ***"
+			"description": [
+				" A digs a pit for a tiger trap and baits it with a quarter of bullock meat * A constructs a concealed trap, and a person dear to aer, CH, falls into the trap and cannot escape ",
+				[
+					{
+						"v": "622",
+						"tfm": {
+							"SN": "CH"
+						}
+					},
+					{
+						"op": "+",
+						"v": [
+							{
+								"v": "591",
+								"tfm": {
+									"B": "CH"
+								}
+							},
+							{
+								"v": "179a",
+								"tfm": {
+									"B": "CH"
+								}
+							}
+						]
+					}
+				]
+			]
 		},
 		"729": {
 			"group": "Enterprise",
@@ -19562,7 +20411,13 @@
 					}
 				]
 			},
-			"description": " A struggles in vain for the friendship of A-8 * A meets with a fatal accident {634|705}  ** A, after aer death, receives the friendship of A-8—for which ae had vainly struggled in life ***"
+			"description": [
+				" A struggles in vain for the friendship of A-8 * A meets with a fatal accident ",
+				[
+					"634",
+					"705"
+				]
+			]
 		},
 		"763": {
 			"group": "Enterprise",
@@ -20586,7 +21441,12 @@
 					"658"
 				]
 			},
-			"description": " A commits a fault against propriety * A forces aer way into the room of an unmarried woman, B {766}  ** B, in order to protect aerself from A, calls a policeman, A-6 ***"
+			"description": [
+				" A commits a fault against propriety * A forces aer way into the room of an unmarried woman, B ",
+				[
+					"766"
+				]
+			]
 		},
 		"800": {
 			"group": "Enterprise",
@@ -21040,7 +21900,13 @@
 					"885a"
 				]
 			},
-			"description": " A is an outlaw, hunted by the authorities and dodging about to escape capture * A, under ban of the law, runs the risk of capture in order to aid B {647|57} , a stranger who is in critical misfortune **"
+			"description": [
+				" A is an outlaw, hunted by the authorities and dodging about to escape capture * A, under ban of the law, runs the risk of capture in order to aid B ",
+				[
+					"647",
+					"57"
+				]
+			]
 		},
 		"819": {
 			"group": "Enterprise",
@@ -21080,7 +21946,17 @@
 					"952"
 				]
 			},
-			"description": " A, a burglar, seeks to aid B, who was aer friend before ae “went to the bad” * A, friend of B, breaks into a building for the purpose of committing a robbery, and finds a trusted employee, A-5, B’s spouse, dead at aer desk, a defaulter and a suicide. A-5 has left a note explaining aer guilt {753 ch A to A-5}  ** A, in order to save aer friend B from disgrace, destroys a letter that would have proved B’s spouse, A-5, a defaulter and a suicide, “blows” a safe and pretends to have committed a robbery ***"
+			"description": [
+				" A, a burglar, seeks to aid B, who was aer friend before ae “went to the bad” * A, friend of B, breaks into a building for the purpose of committing a robbery, and finds a trusted employee, A-5, B’s spouse, dead at aer desk, a defaulter and a suicide. A-5 has left a note explaining aer guilt ",
+				[
+					{
+						"v": "753",
+						"tfm": {
+							"A": "A-5"
+						}
+					}
+				]
+			]
 		},
 		"820": {
 			"group": "Enterprise",
@@ -21204,7 +22080,24 @@
 			"carryOns": [
 				"876a"
 			],
-			"description": " A is a ne’er-do-well who has a friend, A-2, of worth in the world * A’s friend, A-2, is unjustly condemned to death {715c ch A to A-2|793b ch A to A-2 & A-2 to A-3} ; and A, by subtlity, takes A-2’s place in the prison cell and dies in aer stead **"
+			"description": [
+				" A is a ne’er-do-well who has a friend, A-2, of worth in the world * A’s friend, A-2, is unjustly condemned to death ",
+				[
+					{
+						"v": "715c",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"v": "793b",
+						"tfm": {
+							"A": "A-2",
+							"A-2": "A-3"
+						}
+					}
+				]
+			]
 		},
 		"824": {
 			"group": "Enterprise",
@@ -21342,7 +22235,12 @@
 					"1365"
 				]
 			},
-			"description": " A, a sprinter, is on the point of losing a footrace because ae believes ae hears the voice of a dead friend, A-2, calling for help {1160}  * A, superstitious, is on the point of suffering defeat in an enterprise because ae thinks ae hears the voice of a dead friend, A-2, calling to aer; but ae is saved when A-8, one of the spectators, turns the tragic call into a mere incident by a counter-call which allays A’s superstitious fears **"
+			"description": [
+				" A, a sprinter, is on the point of losing a footrace because ae believes ae hears the voice of a dead friend, A-2, calling for help ",
+				[
+					"1160"
+				]
+			]
 		},
 		"828": {
 			"group": "Enterprise",
@@ -21405,7 +22303,14 @@
 					}
 				]
 			},
-			"description": " A, working “under cover,” contrives to prove B’s innocence of a certain crime {648|1154a|1172}  * A, proving B innocent of a certain crime, proves also the guilt of B-5, a criminal whom B physically resembles **"
+			"description": [
+				" A, working “under cover,” contrives to prove B’s innocence of a certain crime ",
+				[
+					"648",
+					"1154a",
+					"1172"
+				]
+			]
 		},
 		"829": {
 			"group": "Enterprise",
@@ -21580,7 +22485,17 @@
 					}
 				]
 			},
-			"description": " A steals money from aer employer, A-9, to help aer friend, A-2, over a financial crisis {753 ch A to A-2} , intending to make good the shortage when A-2 gets back on aer feet and repays the loan * A tells aer friend, A-2, that ae has stolen money from A-9 in order to help A-2 **"
+			"description": [
+				" A steals money from aer employer, A-9, to help aer friend, A-2, over a financial crisis ",
+				[
+					{
+						"v": "753",
+						"tfm": {
+							"A": "A-2"
+						}
+					}
+				]
+			]
 		},
 		"833": {
 			"group": "Enterprise",
@@ -22300,7 +23215,21 @@
 					"1330"
 				]
 			},
-			"description": " A, a mediocre person, undergoes a weird experience {1342|1082b}  * A, a mediocre person, undergoes an experience which inspires aer with grandiose ideas of aer power and ability **"
+			"description": [
+				" A, a mediocre person, undergoes a weird experience ",
+				[
+					{
+						"op": "?",
+						"v": [
+							"1342b",
+							"1342a-1",
+							"1342a-2",
+							"1342a-3"
+						]
+					},
+					"1082b"
+				]
+			]
 		},
 		"854": {
 			"group": "Enterprise",
@@ -22854,7 +23783,14 @@
 					"770a"
 				]
 			},
-			"description": " A is heavily in debt and facing bankruptcy * A seeks to escape financial disaster by undertaking an honest but secret enterprise {1394|1399|1408}  that will bring aer in enough money to discharge aer pressing obligations **"
+			"description": [
+				" A is heavily in debt and facing bankruptcy * A seeks to escape financial disaster by undertaking an honest but secret enterprise ",
+				[
+					"1394",
+					"1399",
+					"1408"
+				]
+			]
 		},
 		"877": {
 			"group": "Enterprise",
@@ -22984,7 +23920,12 @@
 					}
 				]
 			},
-			"description": " A has turned aer back upon happiness because of an obligation ae fancies aerself under to aer son, SN * A’s son, SN, discovers a fateful secret of A’s {425} , and persuades aer to correct an error and regain lost happiness **"
+			"description": [
+				" A has turned aer back upon happiness because of an obligation ae fancies aerself under to aer son, SN * A’s son, SN, discovers a fateful secret of A’s ",
+				[
+					"425"
+				]
+			]
 		},
 		"882": {
 			"group": "Enterprise",
@@ -23421,7 +24362,20 @@
 					"900"
 				]
 			},
-			"description": " A’s popularity becomes so annoying that ae seeks what ae conceives to be ideal seclusion {865;664|689|690}  to escape from it * A, seeking seclusion because aer popularity annoys aer, becomes hungry for the old applause and suffers remorse because of aer flight from it **"
+			"description": [
+				" A’s popularity becomes so annoying that ae seeks what ae conceives to be ideal seclusion ",
+				[
+					{
+						"op": "+",
+						"v": [
+							"865",
+							"664"
+						]
+					},
+					"689",
+					"690"
+				]
+			]
 		},
 		"898": {
 			"group": "Enterprise",
@@ -24018,7 +24972,34 @@
 					}
 				]
 			},
-			"description": " A, humble and supporting aerself by menial tasks {718a|748|749 -*} , loses a work of art {709 tr A & A-2|711b ch A to A-2}  about which there are no marks of identification. The work of art, X, is found and pronounced by connoisseurs to be the production of a master. In the public prints the unknown artist is invited to come forward and receive the honors and wealth to which aer genius entitles aer. But A’s ideal is “art for art’s sake,” and ae will not be tempted"
+			"description": [
+				" A, humble and supporting aerself by menial tasks ",
+				[
+					"718a",
+					"748",
+					{
+						"v": "749",
+						"start": "",
+						"end": "*"
+					}
+				],
+				", loses a work of art ",
+				[
+					{
+						"v": "709",
+						"tfm": {
+							"A": "A-2",
+							"A-2": "A"
+						}
+					},
+					{
+						"v": "711b",
+						"tfm": {
+							"A": "A-2"
+						}
+					}
+				]
+			]
 		},
 		"921": {
 			"group": "Enterprise",
@@ -24842,7 +25823,14 @@
 					"869"
 				]
 			},
-			"description": " A, a highwayman, is robbing the mails * A, a highwayman, opening a letter that falls into aer hands, secures information {738|742|743a}  that sends aer away on an altruistic undertaking—all by the way of proving that there “is good in the worst of us” **"
+			"description": [
+				" A, a highwayman, is robbing the mails * A, a highwayman, opening a letter that falls into aer hands, secures information ",
+				[
+					"738",
+					"742",
+					"743a"
+				]
+			]
 		},
 		"956": {
 			"group": "Enterprise",
@@ -25647,7 +26635,21 @@
 					}
 				]
 			},
-			"description": " A is threatened with misfortune because of a mysterious parcel {1382b -* ch A to A-4} , which ae has obligingly taken from A-4, a stranger, and promised to deliver"
+			"description": [
+				" A is threatened with misfortune because of a mysterious parcel ",
+				[
+					{
+						"v": {
+							"v": "1382b",
+							"start": "",
+							"end": "*"
+						},
+						"tfm": {
+							"A": "A-4"
+						}
+					}
+				]
+			]
 		},
 		"986": {
 			"group": "Enterprise",
@@ -26546,7 +27548,17 @@
 					"1003"
 				]
 			},
-			"description": " A, a cashier responsible for the funds of the firm employing aer, is ordered by A-5 {1079 ch A to A-5} , junior partner of the firm, to give aer secretly a large sum of the firm’s money"
+			"description": [
+				" A, a cashier responsible for the funds of the firm employing aer, is ordered by A-5 ",
+				[
+					{
+						"v": "1079",
+						"tfm": {
+							"A": "A-5"
+						}
+					}
+				]
+			]
 		},
 		"1015": {
 			"group": "Enterprise",
@@ -26649,7 +27661,29 @@
 					}
 				]
 			},
-			"description": " A, an officer of the law, and A-5, aer prisoner, are lost in the desert, afoot, without food and with only a small supply of water—not enough for the two of them * A, an officer of the law, is old; and A-5, aer prisoner, is young, and there are extenuating circumstances in aer case {1309b ch B to A-5|1291b ch A to A-5|747 ch A to A-5}  ** A and A-5, officer of the law and prisoner, are lost in the desert with only a small supply of water between them. They draw lots to see which shall take the water and make aer escape. A cheats in the drawing so that A-5 may win. A-5 picks up the water canteen and abandons A to die ***"
+			"description": [
+				" A, an officer of the law, and A-5, aer prisoner, are lost in the desert, afoot, without food and with only a small supply of water—not enough for the two of them * A, an officer of the law, is old; and A-5, aer prisoner, is young, and there are extenuating circumstances in aer case ",
+				[
+					{
+						"v": "1309b",
+						"tfm": {
+							"B": "A-5"
+						}
+					},
+					{
+						"v": "1291b",
+						"tfm": {
+							"A": "A-5"
+						}
+					},
+					{
+						"v": "747",
+						"tfm": {
+							"A": "A-5"
+						}
+					}
+				]
+			]
 		},
 		"1018": {
 			"group": "Enterprise",
@@ -28240,7 +29274,38 @@
 					"410"
 				]
 			},
-			"description": " B, over the dead body of aer daughter, D-B {557b ch B to D-B|842 ch CH to D-B|945 ch B to D-B} , experiences a psychic revelation that transforms aer whole character"
+			"description": [
+				" B, over the dead body of aer daughter, D-B ",
+				[
+					{
+						"v": "557b",
+						"tfm": {
+							"B": "D-B"
+						}
+					},
+					{
+						"v": {
+							"op": "?",
+							"v": [
+								"842a",
+								"842b-1",
+								"842b-2",
+								"842b-3",
+								"842b-4"
+							]
+						},
+						"tfm": {
+							"CH": "D-B"
+						}
+					},
+					{
+						"v": "945",
+						"tfm": {
+							"B": "D-B"
+						}
+					}
+				]
+			]
 		},
 		"1070": {
 			"group": "Enterprise",
@@ -29953,7 +31018,12 @@
 					]
 				}
 			],
-			"description": " B sends a telegram to aer maid, B-7, to “Come at once” * B {677} , intending to send a telegram to aer maid, B-7, through error addresses the message to A **"
+			"description": [
+				" B sends a telegram to aer maid, B-7, to “Come at once” * B ",
+				[
+					"677"
+				]
+			]
 		},
 		"1138": {
 			"group": "Enterprise",
@@ -30580,7 +31650,14 @@
 					"1462"
 				]
 			},
-			"description": " A’s friend, A-2, is the sole support of aer parents, F-A and M-A * A’s friend, A-2, the sole support of aer parents, dies {603b|603c|603d} , and A withholds the knowledge from the needy parents, writes them in A-2’s name, and continues sending money for their support **"
+			"description": [
+				" A’s friend, A-2, is the sole support of aer parents, F-A and M-A * A’s friend, A-2, the sole support of aer parents, dies ",
+				[
+					"603b",
+					"603c",
+					"603d"
+				]
+			]
 		},
 		"1161": {
 			"group": "Enterprise",
@@ -31503,7 +32580,17 @@
 					}
 				]
 			},
-			"description": " A, a crooked gambler, seeks to fleece a stranger, A-4, {1079 ch A to A-4}  out of aer money * A, a crooked gambler, pretends to be a friend of A-4, a stranger, in order to lure aer into a card game **"
+			"description": [
+				" A, a crooked gambler, seeks to fleece a stranger, A-4, ",
+				[
+					{
+						"v": "1079",
+						"tfm": {
+							"A": "A-4"
+						}
+					}
+				]
+			]
 		},
 		"1192": {
 			"group": "Enterprise",
@@ -32006,7 +33093,13 @@
 					"v": []
 				}
 			],
-			"description": " B is impersonating B-2. In the midst of the impersonation, B-2, at a distance, is injured in an accident and expected to die. Great newspaper publicity is given the incident {1151|1258} ."
+			"description": [
+				" B is impersonating B-2. In the midst of the impersonation, B-2, at a distance, is injured in an accident and expected to die. Great newspaper publicity is given the incident ",
+				[
+					"1151",
+					"1258"
+				]
+			]
 		},
 		"1210": {
 			"group": "Enterprise",
@@ -32366,7 +33459,16 @@
 					"1056"
 				]
 			},
-			"description": " A has taken up aer quarters in a vacant house {74a -*}  * A, taking refuge in a vacant house and desiring to stay on secretly in the place, moves into the attic when the house is rented **"
+			"description": [
+				" A has taken up aer quarters in a vacant house ",
+				[
+					{
+						"v": "74a",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"1226": {
 			"group": "Enterprise",
@@ -33180,7 +34282,17 @@
 					"1395"
 				]
 			},
-			"description": " A, a sculptor, models a bust of B {908|1067 -*}  at B’s order * B, displeased with the work of a sculptor, A, destroys a bust in an angry outburst **"
+			"description": [
+				" A, a sculptor, models a bust of B ",
+				[
+					"908",
+					{
+						"v": "1067",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"1258": {
 			"group": "Enterprise",
@@ -33582,7 +34694,17 @@
 					}
 				]
 			},
-			"description": " A pretends to be a novelist, A-4, writing a burglar story * A, a crook, pretends to be a novelist, A-4, writing a burglar story; and a banker, A-8 {1177 ch A to A-8} , obligingly gives A information about aer own bank vaults **"
+			"description": [
+				" A pretends to be a novelist, A-4, writing a burglar story * A, a crook, pretends to be a novelist, A-4, writing a burglar story; and a banker, A-8 ",
+				[
+					{
+						"v": "1177",
+						"tfm": {
+							"A": "A-8"
+						}
+					}
+				]
+			]
 		},
 		"1272": {
 			"group": "Enterprise",
@@ -34528,7 +35650,14 @@
 					"1010"
 				]
 			},
-			"description": " A, in aer safe, has a fortune in valuables. During aer absence, crooks, A-5, A-5, A-5, attempt to open the safe and loot it of its contents * B {666|152b|921} , A’s secretary, is made a prisoner by crooks, A-5, A-5, A-5, when they fail to open A’s safe **"
+			"description": [
+				" A, in aer safe, has a fortune in valuables. During aer absence, crooks, A-5, A-5, A-5, attempt to open the safe and loot it of its contents * B ",
+				[
+					"666",
+					"152b",
+					"921"
+				]
+			]
 		},
 		"1308": {
 			"group": "Enterprise",
@@ -38143,7 +39272,15 @@
 					"246b"
 				]
 			},
-			"description": " A, when B, the woman ae loves, refuses to marry aer, becomes blase and cynical, a misogynist {224|230|243|245} "
+			"description": [
+				" A, when B, the woman ae loves, refuses to marry aer, becomes blase and cynical, a misogynist ",
+				[
+					"224",
+					"230",
+					"243",
+					"245"
+				]
+			]
 		},
 		"259-2": {
 			"group": "Love and Courtship",
@@ -38159,7 +39296,14 @@
 					"246b"
 				]
 			},
-			"description": " A, when B, the woman ae loves, refuses to marry aer, becomes reckless, “goes to the dogs” or loses aer mental balance in other ways {263|636|638}"
+			"description": [
+				" A, when B, the woman ae loves, refuses to marry aer, becomes reckless, “goes to the dogs” or loses aer mental balance in other ways ",
+				[
+					"263",
+					"636",
+					"638"
+				]
+			]
 		},
 		"259-3": {
 			"group": "Love and Courtship",
@@ -38190,7 +39334,18 @@
 					"1119"
 				]
 			},
-			"description": "B’s love for A encounters obstacles because: Either B’s father, F-B, or mother, M-B, knows a secret supposedly infamous regarding A {98 ch B to B-8|918a} ;"
+			"description": [
+				"B’s love for A encounters obstacles because: Either B’s father, F-B, or mother, M-B, knows a secret supposedly infamous regarding A ",
+				[
+					{
+						"v": "98",
+						"tfm": {
+							"B": "B-8"
+						}
+					},
+					"918a"
+				]
+			]
 		},
 		"312-2": {
 			"group": "Love and Courtship",
@@ -38205,7 +39360,13 @@
 					"1119"
 				]
 			},
-			"description": "B’s love for A encounters obstacles because: M-B and F-B are jealous of B and do not want aer to marry any one {286|299} ;"
+			"description": [
+				"B’s love for A encounters obstacles because: M-B and F-B are jealous of B and do not want aer to marry any one ",
+				[
+					"286",
+					"299"
+				]
+			]
 		},
 		"312-3": {
 			"group": "Love and Courtship",
@@ -38220,7 +39381,13 @@
 					"1119"
 				]
 			},
-			"description": "B’s love for A encounters obstacles because: B is the sole support of M-B and F-B {992|1032} ;"
+			"description": [
+				"B’s love for A encounters obstacles because: B is the sole support of M-B and F-B ",
+				[
+					"992",
+					"1032"
+				]
+			]
 		},
 		"312-4": {
 			"group": "Love and Courtship",
@@ -38679,7 +39846,23 @@
 					"146"
 				]
 			},
-			"description": " A, a poor clerk, finances a “fling” in high society * A, a poor clerk financing a “fling” in high society, meets wealthy and aristocratic B {1146 ch A to B|1187 ch A to B} , and they fall in love **"
+			"description": [
+				" A, a poor clerk, finances a “fling” in high society * A, a poor clerk financing a “fling” in high society, meets wealthy and aristocratic B ",
+				[
+					{
+						"v": "1146",
+						"tfm": {
+							"A": "B"
+						}
+					},
+					{
+						"v": "1187",
+						"tfm": {
+							"A": "B"
+						}
+					}
+				]
+			]
 		},
 		"2b": {
 			"group": "Love and Courtship",
@@ -38703,7 +39886,23 @@
 					"876a"
 				]
 			},
-			"description": " A, a fugitive from the law and using a fictitious name, falls in love with B * A, craftily engaged in a secret enterprise, falls in love with B {1146 ch A to B|1169 ch A to B}  who has also embarked upon a crafty enterprise **"
+			"description": [
+				" A, a fugitive from the law and using a fictitious name, falls in love with B * A, craftily engaged in a secret enterprise, falls in love with B ",
+				[
+					{
+						"v": "1146",
+						"tfm": {
+							"A": "B"
+						}
+					},
+					{
+						"v": "1169",
+						"tfm": {
+							"A": "B"
+						}
+					}
+				]
+			]
 		},
 		"2c": {
 			"group": "Love and Courtship",
@@ -38807,7 +40006,12 @@
 					"152a"
 				]
 			},
-			"description": " B, poor and humble but romantic, acquires unexpectedly a small sum of money; thus financed, ae pretends for a time to be wealthy and aristocratic * B, poor and humble but pretending to be wealthy and aristocratic, meets rich and influential A {1163c}  and they fall in love **"
+			"description": [
+				" B, poor and humble but romantic, acquires unexpectedly a small sum of money; thus financed, ae pretends for a time to be wealthy and aristocratic * B, poor and humble but pretending to be wealthy and aristocratic, meets rich and influential A ",
+				[
+					"1163c"
+				]
+			]
 		},
 		"2g": {
 			"group": "Love and Courtship",
@@ -38833,7 +40037,12 @@
 					"1060"
 				]
 			},
-			"description": " B, a maid, uses the wardrobe of aer wealthy mistress and pretends to be a distinguished personage * B, poor but pretending to be wealthy and aristocratic, meets rich and influential A {1148a}  and they fall in love **"
+			"description": [
+				" B, a maid, uses the wardrobe of aer wealthy mistress and pretends to be a distinguished personage * B, poor but pretending to be wealthy and aristocratic, meets rich and influential A ",
+				[
+					"1148a"
+				]
+			]
 		},
 		"2h": {
 			"group": "Love and Courtship",
@@ -38854,7 +40063,14 @@
 					"1208"
 				]
 			},
-			"description": " B, a criminal, assumes an alias and makes use of stolen funds in evading the law * B, a criminal in disguise, meets A {1169|1175a|1181}  and they fall in love **"
+			"description": [
+				" B, a criminal, assumes an alias and makes use of stolen funds in evading the law * B, a criminal in disguise, meets A ",
+				[
+					"1169",
+					"1175a",
+					"1181"
+				]
+			]
 		},
 		"3a": {
 			"group": "Love and Courtship",
@@ -40721,7 +41937,12 @@
 					"1262"
 				]
 			},
-			"description": " A asks that B allow aerself to be hypnotized in order that ae may learn where buried treasure has been concealed {1394}  * A hypnotizes B, and B dies of psychic shock **"
+			"description": [
+				" A asks that B allow aerself to be hypnotized in order that ae may learn where buried treasure has been concealed ",
+				[
+					"1394"
+				]
+			]
 		},
 		"47b": {
 			"group": "Love and Courtship",
@@ -41154,7 +42375,18 @@
 					"1335"
 				]
 			},
-			"description": " A, young and romantic, sees a ruinous old house in a city street, a house said to be deserted. * A, aer curiosity aroused, secretly watches the house; then, one day, ae sees a beautifully rounded arm and a small, shapely hand {953 ch A to B|403}  emerge from behind a broken blind and place something on the window sill **"
+			"description": [
+				" A, young and romantic, sees a ruinous old house in a city street, a house said to be deserted. * A, aer curiosity aroused, secretly watches the house; then, one day, ae sees a beautifully rounded arm and a small, shapely hand ",
+				[
+					{
+						"v": "953",
+						"tfm": {
+							"A": "B"
+						}
+					},
+					"403"
+				]
+			]
 		},
 		"74b": {
 			"group": "Love and Courtship",
@@ -41280,7 +42512,27 @@
 					"122"
 				]
 			},
-			"description": " A, in order to ensure the happiness of B {85a}  whom ae loves devotedly and who, ae thinks, loves aer rival, A-3 {177 ch A to A-3|1175a ch A to A-3} , fiees secretly so it may appear that ae, and not A-3, committed a certain transgression"
+			"description": [
+				" A, in order to ensure the happiness of B ",
+				[
+					"85a"
+				],
+				" whom ae loves devotedly and who, ae thinks, loves aer rival, A-3 ",
+				[
+					{
+						"v": "177",
+						"tfm": {
+							"A": "A-3"
+						}
+					},
+					{
+						"v": "1175a",
+						"tfm": {
+							"A": "A-3"
+						}
+					}
+				]
+			]
 		},
 		"80b": {
 			"group": "Love and Courtship",
@@ -41571,7 +42823,12 @@
 					"87"
 				]
 			},
-			"description": " B, seeking to prove whether or not A really loves aer {141} , has recourse to a stratagem"
+			"description": [
+				" B, seeking to prove whether or not A really loves aer ",
+				[
+					"141"
+				]
+			]
 		},
 		"94a": {
 			"group": "Love and Courtship",
@@ -41616,7 +42873,23 @@
 					"v": []
 				}
 			],
-			"description": " B and A are in love. B-3, by craftiness {138|215a}  steals A away from B {216}  * then B, matching aer own craftiness against B-3’s, steals B-3’s thunder and wins A back again {359|361a|361b}  **"
+			"description": [
+				" B and A are in love. B-3, by craftiness ",
+				[
+					"138",
+					"215a"
+				],
+				" steals A away from B ",
+				[
+					"216"
+				],
+				" * then B, matching aer own craftiness against B-3’s, steals B-3’s thunder and wins A back again ",
+				[
+					"359",
+					"361a",
+					"361b"
+				]
+			]
 		},
 		"94b": {
 			"group": "Love and Courtship",
@@ -41974,7 +43247,25 @@
 					"367a"
 				]
 			},
-			"description": " A is a youth who is “wild” and hard to manage; ae falls in love with B {812b;230 tr A & B|224}  and aer character is transformed"
+			"description": [
+				" A is a youth who is “wild” and hard to manage; ae falls in love with B ",
+				[
+					{
+						"op": "+",
+						"v": [
+							"812b",
+							{
+								"v": "230",
+								"tfm": {
+									"A": "B",
+									"B": "A"
+								}
+							}
+						]
+					},
+					"224"
+				]
+			]
 		},
 		"152b": {
 			"group": "Love and Courtship",
@@ -42128,7 +43419,33 @@
 					"v": []
 				}
 			],
-			"description": " B, aer first lover having died, after some years falls in love a second time. AX, the man ae loves, greatly cast down, tells B ae is already married, and to a woman ae does not even know, BX. ae recites the circumstances {365b ch B to BX|365c ch B to BX|365d}  ; * and then strangely, even implausibly, it develops that BX is B. {166 ch B to BX}  **"
+			"description": [
+				" B, aer first lover having died, after some years falls in love a second time. AX, the man ae loves, greatly cast down, tells B ae is already married, and to a woman ae does not even know, BX. ae recites the circumstances ",
+				[
+					{
+						"v": "365b",
+						"tfm": {
+							"B": "BX"
+						}
+					},
+					{
+						"v": "365c",
+						"tfm": {
+							"B": "BX"
+						}
+					},
+					"365d"
+				],
+				" ; * and then strangely, even implausibly, it develops that BX is B. ",
+				[
+					{
+						"v": "166",
+						"tfm": {
+							"B": "BX"
+						}
+					}
+				]
+			]
 		},
 		"167b": {
 			"group": "Love and Courtship",
@@ -42275,7 +43592,23 @@
 			"carryOns": [
 				"1154a"
 			],
-			"description": " A, at a long distance from B, and in a lonely country, hears an agonized call from aer sweetheart over the phone {483 ch “wife” to “sweetheart”}"
+			"description": [
+				" A, at a long distance from B, and in a lonely country, hears an agonized call from aer sweetheart over the phone ",
+				[
+					{
+						"v": {
+							"op": "?",
+							"v": [
+								"483a",
+								"483b"
+							]
+						},
+						"tfm": {
+							"wife": "sweetheart"
+						}
+					}
+				]
+			]
 		},
 		"179c": {
 			"group": "Love and Courtship",
@@ -42325,7 +43658,14 @@
 					"v": []
 				}
 			],
-			"description": " A, riding aer cow pony through the bleak hills, sees B, on a mettlesome horse, aer bridle-rein broken, plunging helplessly toward the brink of a cliff. A, with a rattle of spurs, overtakes B and snatches aer clear of the saddle.* Thereupon, love is declared and accepted {188a|241|360a}  **"
+			"description": [
+				" A, riding aer cow pony through the bleak hills, sees B, on a mettlesome horse, aer bridle-rein broken, plunging helplessly toward the brink of a cliff. A, with a rattle of spurs, overtakes B and snatches aer clear of the saddle.* Thereupon, love is declared and accepted ",
+				[
+					"188a",
+					"241",
+					"360a"
+				]
+			]
 		},
 		"181b": {
 			"group": "Love and Courtship",
@@ -42420,7 +43760,18 @@
 					"318"
 				]
 			},
-			"description": " B, thinking ae has received a proposal of marriaqe from A {192a|195} , accepts. Later, ae discovers it was A-3 {76|160}  who proposed"
+			"description": [
+				" B, thinking ae has received a proposal of marriaqe from A ",
+				[
+					"192a",
+					"195"
+				],
+				", accepts. Later, ae discovers it was A-3 ",
+				[
+					"76",
+					"160"
+				]
+			]
 		},
 		"182b": {
 			"group": "Love and Courtship",
@@ -42477,7 +43828,26 @@
 					"234b"
 				]
 			},
-			"description": " B, impelled by an unusual motive, agrees to marry A if ae loses to aer in a certain contest of skill [archery, shooting at a mark with rifle or revolver, solving a mystery] {1343|1364|1384}  * B has the ability to defeat A in a certain contest if ae so desires **"
+			"description": [
+				" B, impelled by an unusual motive, agrees to marry A if ae loses to aer in a certain contest of skill [archery, shooting at a mark with rifle or revolver, solving a mystery] ",
+				[
+					{
+						"op": "?",
+						"v": [
+							"1343-2",
+							"1343-3"
+						]
+					},
+					{
+						"op": "?",
+						"v": [
+							"1364a",
+							"1364b"
+						]
+					},
+					"1384"
+				]
+			]
 		},
 		"188b": {
 			"group": "Love and Courtship",
@@ -42968,7 +44338,21 @@
 					}
 				]
 			},
-			"description": " A, in love with B, secretly discovers B in the arms of A-4 * A, secretly discovering aer sweetheart, B, in the arms of A-4, leaves in anger, unaware that A-4 is B’s brother {708 -* ch A to BR-B}  just returned after a long, mysterious absence **"
+			"description": [
+				" A, in love with B, secretly discovers B in the arms of A-4 * A, secretly discovering aer sweetheart, B, in the arms of A-4, leaves in anger, unaware that A-4 is B’s brother ",
+				[
+					{
+						"v": {
+							"v": "708",
+							"start": "",
+							"end": "*"
+						},
+						"tfm": {
+							"A": "BR-B"
+						}
+					}
+				]
+			]
 		},
 		"234a": {
 			"group": "Love and Courtship",
@@ -43549,7 +44933,18 @@
 					}
 				]
 			},
-			"description": " A wishes to marry B, but is already united to B-3 {365b ch B to B-3|354b}  by a secret marriage"
+			"description": [
+				" A wishes to marry B, but is already united to B-3 ",
+				[
+					{
+						"v": "365b",
+						"tfm": {
+							"B": "B-3"
+						}
+					},
+					"354b"
+				]
+			]
 		},
 		"281b": {
 			"group": "Love and Courtship",
@@ -43593,7 +44988,19 @@
 					"324"
 				]
 			},
-			"description": " A, poor, in love with B, suddenly puts forth a great effort and secures a large sum of money {1354b|1394}  * A renounces aer love for B and seeks to win wealthy B-3 **"
+			"description": [
+				" A, poor, in love with B, suddenly puts forth a great effort and secures a large sum of money ",
+				[
+					{
+						"op": "?",
+						"v": [
+							"1354b-1",
+							"1354b-2"
+						]
+					},
+					"1394"
+				]
+			]
 		},
 		"282a": {
 			"group": "Love and Courtship",
@@ -43997,7 +45404,13 @@
 					"v": []
 				}
 			],
-			"description": " B sends a gift to A, the man ae loves * Unknown to B, AU-B, an aunt of B’s who does not approve of A, secretly alters or marks the gift in such a way as to make it offensive to A, or exchanges the gift for some other object which will offend A {81|93b}  **"
+			"description": [
+				" B sends a gift to A, the man ae loves * Unknown to B, AU-B, an aunt of B’s who does not approve of A, secretly alters or marks the gift in such a way as to make it offensive to A, or exchanges the gift for some other object which will offend A ",
+				[
+					"81",
+					"93b"
+				]
+			]
 		},
 		"321a": {
 			"group": "Love and Courtship",
@@ -44239,7 +45652,12 @@
 					"347b"
 				]
 			},
-			"description": " A’s father, F-A, disapproves of B, A’s sweetheart * B, by secret enterprise {241} , proves aer charm and worth to A’s father, F-A, and ae withdraws aer objections to aer marriage with A **"
+			"description": [
+				" A’s father, F-A, disapproves of B, A’s sweetheart * B, by secret enterprise ",
+				[
+					"241"
+				]
+			]
 		},
 		"334a": {
 			"group": "Love and Courtship",
@@ -44493,7 +45911,18 @@
 					"379"
 				]
 			},
-			"description": " A, seeking to uphold a lofty conception of duty, secretly abandons B {23c|331|332} , a woman whom ae loves dearly * A’s enemy, A-3, as a means of persecution, by subtlity {348}  compels A to marry B **"
+			"description": [
+				" A, seeking to uphold a lofty conception of duty, secretly abandons B ",
+				[
+					"23c",
+					"331",
+					"332"
+				],
+				", a woman whom ae loves dearly * A’s enemy, A-3, as a means of persecution, by subtlity ",
+				[
+					"348"
+				]
+			]
 		},
 		"347b": {
 			"group": "Love and Courtship",
@@ -44535,7 +45964,13 @@
 					"381"
 				]
 			},
-			"description": " A kidnaps aer sweetheart, B, {284|300}  while ae is on aer way to marry A-3, A’s rival in love, and marries aer aerself"
+			"description": [
+				" A kidnaps aer sweetheart, B, ",
+				[
+					"284",
+					"300"
+				]
+			]
 		},
 		"351b": {
 			"group": "Love and Courtship",
@@ -44562,7 +45997,14 @@
 					}
 				]
 			},
-			"description": " A and B, lovers, are innocently thrown into a compromising situation {134a|134b|876b}  * A, in order to safeguard B’s good name, has a marriage ceremony performed by a wandering circuit rider, A-8 **"
+			"description": [
+				" A and B, lovers, are innocently thrown into a compromising situation ",
+				[
+					"134a",
+					"134b",
+					"876b"
+				]
+			]
 		},
 		"352a": {
 			"group": "Love and Courtship",
@@ -44590,7 +46032,18 @@
 					}
 				]
 			},
-			"description": " A masquerades as a servant in the household of F-B, father of B, the girl ae loves * A, enacting the role of a servant, rescues B from an accident by heroic bravery {181a -*|851a -*}  not at all in the manner of a menial ** A stands revealed as the lover of B whom F-B has not favored *** F-B approves of A, and A and B are married ****"
+			"description": [
+				" A masquerades as a servant in the household of F-B, father of B, the girl ae loves * A, enacting the role of a servant, rescues B from an accident by heroic bravery ",
+				[
+					"181a -*",
+					{
+						"v": "851-1",
+						"start": "",
+						"end": "*"
+					}
+				],
+				"  not at all in the manner of a menial ** A stands revealed as the lover of B whom F-B has not favored *** F-B approves of A, and A and B are married ****"
+			]
 		},
 		"352b": {
 			"group": "Love and Courtship",
@@ -44611,7 +46064,12 @@
 					"451"
 				]
 			},
-			"description": " A rescues B, the woman ae loves, from a villainous rival in love, A-3 {154b} . A marries B"
+			"description": [
+				" A rescues B, the woman ae loves, from a villainous rival in love, A-3 ",
+				[
+					"154b"
+				]
+			]
 		},
 		"354a": {
 			"group": "Love and Courtship",
@@ -44632,7 +46090,30 @@
 					"462"
 				]
 			},
-			"description": " B, impelled by an unusual motive, invents a fictitious character, AX * AX, a fictitious character invented by B, “comes to life,” falls in love with B {4a ch A to AX|298 ch A to AX} , and they marry **"
+			"description": [
+				" B, impelled by an unusual motive, invents a fictitious character, AX * AX, a fictitious character invented by B, “comes to life,” falls in love with B ",
+				[
+					{
+						"v": "4a",
+						"tfm": {
+							"A": "AX"
+						}
+					},
+					{
+						"v": {
+							"op": "?",
+							"v": [
+								"298a",
+								"298b",
+								"298c"
+							]
+						},
+						"tfm": {
+							"A": "AX"
+						}
+					}
+				]
+			]
 		},
 		"354b": {
 			"group": "Love and Courtship",
@@ -44708,7 +46189,12 @@
 					"405"
 				]
 			},
-			"description": " A loves B, but ae is uncertain of aer affections and is too timid to propose marriage * A finds an object, X, which B has lost, an object that proves aer love for aer {165}  ** A joyfully proposes to B and is accepted ***"
+			"description": [
+				" A loves B, but ae is uncertain of aer affections and is too timid to propose marriage * A finds an object, X, which B has lost, an object that proves aer love for aer ",
+				[
+					"165"
+				]
+			]
 		},
 		"361a": {
 			"group": "Love and Courtship",
@@ -44729,7 +46215,18 @@
 					"589"
 				]
 			},
-			"description": " A proves false to B, the woman ae loves, and has a disastrous affair with B-3 * B-3 abandons A after ae loses aer money {606|630}  and is injured and sent to a hospital {655|710}  ** B, still loyal, returns to A, and there is reconciliation and marriage ***"
+			"description": [
+				" A proves false to B, the woman ae loves, and has a disastrous affair with B-3 * B-3 abandons A after ae loses aer money ",
+				[
+					"606",
+					"630"
+				],
+				" and is injured and sent to a hospital ",
+				[
+					"655",
+					"710"
+				]
+			]
 		},
 		"361b": {
 			"group": "Love and Courtship",
@@ -44750,7 +46247,12 @@
 					"431"
 				]
 			},
-			"description": " A proves false to B, the love of aer youth * A, middle-aged, goes searching for B, the sweetheart of aer earlier years ** {205}  A finds B patiently waiting for aer, and they marry ***"
+			"description": [
+				" A proves false to B, the love of aer youth * A, middle-aged, goes searching for B, the sweetheart of aer earlier years ** ",
+				[
+					"205"
+				]
+			]
 		},
 		"363a": {
 			"group": "Love and Courtship",
@@ -44828,7 +46330,27 @@
 					"437"
 				]
 			},
-			"description": " B, a white woman, contemplates suicide when a mystery of aer birth and parentage apparently yields an evil secret * A, B’s loyal lover, working in secret, secures proof of B’s unsullied lineage {1051|1052 -*} ; and they marry **"
+			"description": [
+				" B, a white woman, contemplates suicide when a mystery of aer birth and parentage apparently yields an evil secret * A, B’s loyal lover, working in secret, secures proof of B’s unsullied lineage ",
+				[
+					"1051",
+					{
+						"op": "?",
+						"v": [
+							{
+								"v": "1052a",
+								"start": "",
+								"end": "*"
+							},
+							{
+								"v": "1052b",
+								"start": "",
+								"end": "*"
+							}
+						]
+					}
+				]
+			]
 		},
 		"364b": {
 			"group": "Love and Courtship",
@@ -44849,7 +46371,13 @@
 					"561"
 				]
 			},
-			"description": " B, in love with A and estranged from aer, after various misadventures {82a|89}  discovers that A still loves aer * A reconciliation is effected, and they marry **"
+			"description": [
+				" B, in love with A and estranged from aer, after various misadventures ",
+				[
+					"82a",
+					"89"
+				]
+			]
 		},
 		"364c": {
 			"group": "Love and Courtship",
@@ -44870,7 +46398,19 @@
 					"575"
 				]
 			},
-			"description": " A, with a taint of inferior blood in aer veins, is in love with B, supposedly a white girl. ae is about to give B up when ae discovers that B also has a taint of inferior blood {255 tr A & B|1051}  * A marries B **"
+			"description": [
+				" A, with a taint of inferior blood in aer veins, is in love with B, supposedly a white girl. ae is about to give B up when ae discovers that B also has a taint of inferior blood ",
+				[
+					{
+						"v": "255",
+						"tfm": {
+							"A": "B",
+							"B": "A"
+						}
+					},
+					"1051"
+				]
+			]
 		},
 		"364d": {
 			"group": "Love and Courtship",
@@ -45092,7 +46632,13 @@
 					"428"
 				]
 			},
-			"description": " B doubts A when ae tells aer ae loves aer; then, having convinced aerself of A’s love {97|116} , B accepts A and they are married"
+			"description": [
+				" B doubts A when ae tells aer ae loves aer; then, having convinced aerself of A’s love ",
+				[
+					"97",
+					"116"
+				]
+			]
 		},
 		"368a": {
 			"group": "Love and Courtship",
@@ -45316,7 +46862,12 @@
 					"526"
 				]
 			},
-			"description": " A and aer spouse, B, have frequent and violent quarrels * B is mysteriously murdered {387}  and A, innocent, is suspected of the crime **"
+			"description": [
+				" A and aer spouse, B, have frequent and violent quarrels * B is mysteriously murdered ",
+				[
+					"387"
+				]
+			]
 		},
 		"385b": {
 			"group": "Married Life",
@@ -45526,7 +47077,17 @@
 					"486a"
 				]
 			},
-			"description": " A secretly defrauds B of a large sum of money * A {701 ch A-2 to B}  marries B in order to make a crafty restitution of property which, before marriage, ae had stolen from aer **"
+			"description": [
+				" A secretly defrauds B of a large sum of money * A ",
+				[
+					{
+						"v": "701",
+						"tfm": {
+							"A-2": "B"
+						}
+					}
+				]
+			]
 		},
 		"422b": {
 			"group": "Married Life",
@@ -45962,7 +47523,13 @@
 					"499a"
 				]
 			},
-			"description": " B, spouse of A, is mistakenly supposed by A to have an “affair” with A-3 * B, spouse of A, detests A-3. but calls on aer at aer apartment at night {483b|583b}  ** B forces A-3, at the revolver point, to return to aer money which ae has taken craftily from A ***"
+			"description": [
+				" B, spouse of A, is mistakenly supposed by A to have an “affair” with A-3 * B, spouse of A, detests A-3. but calls on aer at aer apartment at night ",
+				[
+					"483b",
+					"583b"
+				]
+			]
 		},
 		"445b": {
 			"group": "Married Life",
@@ -46313,7 +47880,15 @@
 					"507a"
 				]
 			},
-			"description": " B, spouse of A, finds aerself in the power of an old lover, A-3 * A-3 threatens to reveal to B’s spouse, A, a fateful secret {441|447|455b|492b}  unless B will agree to a certain proposition A makes to aer **"
+			"description": [
+				" B, spouse of A, finds aerself in the power of an old lover, A-3 * A-3 threatens to reveal to B’s spouse, A, a fateful secret ",
+				[
+					"441",
+					"447",
+					"455b",
+					"492b"
+				]
+			]
 		},
 		"483a": {
 			"group": "Married Life",
@@ -46523,7 +48098,14 @@
 					"1291a"
 				]
 			},
-			"description": " A marries B, a woman ae does not love * A has committed a transgression {1290a|1301|1304} ; B knows of the transgression, and A marries aer in order to safeguard aer evil secret **"
+			"description": [
+				" A marries B, a woman ae does not love * A has committed a transgression ",
+				[
+					"1290a",
+					"1301",
+					"1304"
+				]
+			]
 		},
 		"490a": {
 			"group": "Married Life",
@@ -47057,7 +48639,12 @@
 					"546a"
 				]
 			},
-			"description": " B thinks aer spouse, A, has committed a moral transgression {563a}  * B discovers through a friend, B-2, that the moral transgression of which ae has accused aer spouse, A, was never committed **"
+			"description": [
+				" B thinks aer spouse, A, has committed a moral transgression ",
+				[
+					"563a"
+				]
+			]
 		},
 		"506b": {
 			"group": "Married Life",
@@ -49583,7 +51170,12 @@
 					}
 				]
 			},
-			"description": " A, wealthy and influential, loses aer clothes, personal belongings and all other means of identification {658}  * A, wealthy, finds that aer pretentions to place and power are treated as a joke ** A cannot convince others of aer identity, and undergoes the hardships and evil treatment accorded an upstart imposter ***"
+			"description": [
+				" A, wealthy and influential, loses aer clothes, personal belongings and all other means of identification ",
+				[
+					"658"
+				]
+			]
 		},
 		"715b": {
 			"group": "Enterprise",
@@ -49611,7 +51203,24 @@
 					"944"
 				]
 			},
-			"description": " A cripples aerself for life in rescuing a child, CH, from death {842b}  * A loses aer small fortune in trying to help a friend, A-2 {601}  ** A, a poor man and crippled, finds aer life in a sad tangle ***"
+			"description": [
+				" A cripples aerself for life in rescuing a child, CH, from death ",
+				[
+					{
+						"op": "?",
+						"v": [
+							"842b-1",
+							"842b-2",
+							"842b-3",
+							"842b-4"
+						]
+					}
+				],
+				" * A loses aer small fortune in trying to help a friend, A-2 ",
+				[
+					"601"
+				]
+			]
 		},
 		"715c": {
 			"group": "Enterprise",
@@ -49632,7 +51241,12 @@
 					"826"
 				]
 			},
-			"description": " A is found guilty of a political conspiracy {793b}  * A, convicted of being a traitor to aer country, is expatriated and forced to live abroad **"
+			"description": [
+				" A is found guilty of a political conspiracy ",
+				[
+					"793b"
+				]
+			]
 		},
 		"718a": {
 			"group": "Enterprise",
@@ -49654,7 +51268,12 @@
 					"959"
 				]
 			},
-			"description": " A knows something others do not know, something that proves the greatest obstacle to aer enterprising and capable nature {1061}  * A, believed by all to be a white man, knows there is negro blood in aer veins **"
+			"description": [
+				" A knows something others do not know, something that proves the greatest obstacle to aer enterprising and capable nature ",
+				[
+					"1061"
+				]
+			]
 		},
 		"718b": {
 			"group": "Enterprise",
@@ -50790,7 +52409,23 @@
 					}
 				]
 			},
-			"description": " A, well-to-do and of good family, is impersonating a person who is “down and out” * A has been hired by A-4 to circulate an infamous slander against B {60 ch A to A-4|339a ch A to A-4}  ** A, hired by A-4 to injure B, meets B, aer sympathy goes out to aer, and ae revolts against A-4’s scheme and warns B ***"
+			"description": [
+				" A, well-to-do and of good family, is impersonating a person who is “down and out” * A has been hired by A-4 to circulate an infamous slander against B ",
+				[
+					{
+						"v": "60",
+						"tfm": {
+							"A": "A-4"
+						}
+					},
+					{
+						"v": "339",
+						"tfm": {
+							"A": "A-4"
+						}
+					}
+				]
+			]
 		},
 		"818b": {
 			"group": "Enterprise",
@@ -50910,7 +52545,36 @@
 					"v": []
 				}
 			],
-			"description": " A tries to rescue a child, CH {842b -*} , makes a heroic attempt, and both die"
+			"description": [
+				" A tries to rescue a child, CH ",
+				[
+					{
+						"op": "?",
+						"v": [
+							{
+								"v": "842b-1",
+								"start": "",
+								"end": "*"
+							},
+							{
+								"v": "842b-2",
+								"start": "",
+								"end": "*"
+							},
+							{
+								"v": "842b-3",
+								"start": "",
+								"end": "*"
+							},
+							{
+								"v": "842b-4",
+								"start": "",
+								"end": "*"
+							}
+						]
+					}
+				]
+			]
 		},
 		"844a": {
 			"group": "Enterprise",
@@ -51370,7 +53034,17 @@
 					"359"
 				]
 			},
-			"description": " A sees a policeman, A-6, watching B, who is about to pick a pocket {724 ch A to B}  * A warns B of danger from A-6 **"
+			"description": [
+				" A sees a policeman, A-6, watching B, who is about to pick a pocket ",
+				[
+					{
+						"v": "724",
+						"tfm": {
+							"A": "B"
+						}
+					}
+				]
+			]
 		},
 		"876b": {
 			"group": "Enterprise",
@@ -51392,7 +53066,12 @@
 					"360a"
 				]
 			},
-			"description": " A and B find themselves prisoners in a deserted house * A and B, trapped in a deserted house, seek some method of escape {170} . A hurls aerself from an upper window and, aer arm broken, secures aid and rescues B **"
+			"description": [
+				" A and B find themselves prisoners in a deserted house * A and B, trapped in a deserted house, seek some method of escape ",
+				[
+					"170"
+				]
+			]
 		},
 		"878a": {
 			"group": "Enterprise",
@@ -53097,7 +54776,12 @@
 					}
 				]
 			},
-			"description": " A has a jeweler, A-9, send to aer friend, A-2, a silver whiskey flask, and to B {976}  an expensive “slave” bracelet * A’s presents to A-2 and B are in packages, and the packages are transposed by A-9 with unfortunate results **"
+			"description": [
+				" A has a jeweler, A-9, send to aer friend, A-2, a silver whiskey flask, and to B ",
+				[
+					"976"
+				]
+			]
 		},
 		"1044a": {
 			"group": "Enterprise",
@@ -53274,7 +54958,23 @@
 					"1289c"
 				]
 			},
-			"description": " A borrows an infant, CH, from a married friend, A-2 {594c ch A to A-2|1057a ch A to A-2}  in order to carry out an unusual enterprise"
+			"description": [
+				" A borrows an infant, CH, from a married friend, A-2 ",
+				[
+					{
+						"v": "594c",
+						"tfm": {
+							"A": "A-2"
+						}
+					},
+					{
+						"v": "1057a",
+						"tfm": {
+							"A": "A-2"
+						}
+					}
+				]
+			]
 		},
 		"1075a": {
 			"group": "Enterprise",
@@ -54171,7 +55871,16 @@
 					"1446b"
 				]
 			},
-			"description": " B, mistaken for another woman who is under ban of death by a strange secret society {1438c-1} , seeks to escape from aer pursuers"
+			"description": [
+				" B, mistaken for another woman who is under ban of death by a strange secret society ",
+				[
+					{
+						"v": "1438c",
+						"start": "",
+						"end": "*"
+					}
+				]
+			]
 		},
 		"1154b": {
 			"group": "Enterprise",
@@ -54289,7 +55998,17 @@
 					}
 				]
 			},
-			"description": " A unloads upon A-4 {101b ch A to A-4}  certain romantic affairs which ae (A) finds distasteful"
+			"description": [
+				" A unloads upon A-4 ",
+				[
+					{
+						"v": "101b",
+						"tfm": {
+							"A": "A-4"
+						}
+					}
+				]
+			]
 		},
 		"1163c": {
 			"group": "Enterprise",
@@ -55102,7 +56821,23 @@
 					"933"
 				]
 			},
-			"description": " B undertakes, for extravagant pay, to carry out a secret investigation {1267b ch A to A-8|1267c ch A to A-8}  in which it is necessary for aer to pretend to be deaf and dumb, and in which ae must have a knowledge of “sign” language"
+			"description": [
+				" B undertakes, for extravagant pay, to carry out a secret investigation ",
+				[
+					{
+						"v": "1267b",
+						"tfm": {
+							"A": "A-8"
+						}
+					},
+					{
+						"v": "1267c",
+						"tfm": {
+							"A": "A-8"
+						}
+					}
+				]
+			]
 		},
 		"1241b": {
 			"group": "Enterprise",
@@ -55693,7 +57428,12 @@
 					"1278c"
 				]
 			},
-			"description": " A, counseled by artful B, makes use of important papers belonging to A-8 {1054}  in forwarding a certain enterprise"
+			"description": [
+				" A, counseled by artful B, makes use of important papers belonging to A-8 ",
+				[
+					"1054"
+				]
+			]
 		},
 		"1278b": {
 			"group": "Enterprise",
@@ -56473,7 +58213,23 @@
 					"648"
 				]
 			},
-			"description": " B’s friend, A-3, mysteriously disappears {770a ch A to A-3|1277b ch A to A-3}  while in B’s company * B is arrested on suspicion of having murdered A-3 **"
+			"description": [
+				" B’s friend, A-3, mysteriously disappears ",
+				[
+					{
+						"v": "770a",
+						"tfm": {
+							"A": "A-3"
+						}
+					},
+					{
+						"v": "1277b",
+						"tfm": {
+							"A": "A-3"
+						}
+					}
+				]
+			]
 		},
 		"1313a": {
 			"group": "Enterprise",
@@ -57078,7 +58834,17 @@
 					"1433b"
 				]
 			},
-			"description": " A discovers a magic method for realizing all aer wishes {1384 ch B to A}  but at the expense of years of aer life for every wish granted * A, discovering a magic method for wishing and having, makes a last wish that ae shall live forever; but aer magic fails aer, and ae dies **"
+			"description": [
+				" A discovers a magic method for realizing all aer wishes ",
+				[
+					{
+						"v": "1384",
+						"tfm": {
+							"B": "A"
+						}
+					}
+				]
+			]
 		},
 		"1361a": {
 			"group": "Enterprise",
@@ -59058,7 +60824,18 @@
 					"1399"
 				]
 			},
-			"description": "A, in love with B, is promised aer hand in marriage if ae will: successfully accomplish a work of great difficulty {209|225|111|112|113|114|115}"
+			"description": [
+				"A, in love with B, is promised aer hand in marriage if ae will: successfully accomplish a work of great difficulty ",
+				[
+					"209",
+					"225",
+					"111",
+					"112",
+					"113",
+					"114",
+					"115"
+				]
+			]
 		},
 		"110-2": {
 			"group": "Love and Courtship",
@@ -59089,7 +60866,13 @@
 					"1399"
 				]
 			},
-			"description": "A, in love with B, is promised aer hand in marriage if ae will: demonstrate aer ability by securing a position at a salary which the parents of B think necessary for aer comfort and happiness {1374|1377b} ;"
+			"description": [
+				"A, in love with B, is promised aer hand in marriage if ae will: demonstrate aer ability by securing a position at a salary which the parents of B think necessary for aer comfort and happiness ",
+				[
+					"1374",
+					"1377b"
+				]
+			]
 		},
 		"110-3": {
 			"group": "Love and Courtship",
@@ -59201,7 +60984,13 @@
 					]
 				}
 			],
-			"description": "A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A’s imagination errs in a high, mountainous country; on returning to sea level, the error is manifest, and ae renounces it {148|150} ."
+			"description": [
+				"A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A’s imagination errs in a high, mountainous country; on returning to sea level, the error is manifest, and ae renounces it ",
+				[
+					"148",
+					"150"
+				]
+			]
 		},
 		"210-2": {
 			"group": "Love and Courtship",
@@ -59226,7 +61015,13 @@
 					]
 				}
 			],
-			"description": "A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A’s imagination errs on the romantic side in spring; but, as summer advances, ae corrects aer mistaken fancy {149|151} ."
+			"description": [
+				"A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A’s imagination errs on the romantic side in spring; but, as summer advances, ae corrects aer mistaken fancy ",
+				[
+					"149",
+					"151"
+				]
+			]
 		},
 		"210-3": {
 			"group": "Love and Courtship",
@@ -59251,7 +61046,19 @@
 					]
 				}
 			],
-			"description": "A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A believes B wealthy; on discovering that ae is poor, aer ardor cools {1e;59;93a} ."
+			"description": [
+				"A, under abnormal conditions, falls in love with B; on returning to normal conditions, ae sees B as ae really is and aer love fades. A believes B wealthy; on discovering that ae is poor, aer ardor cools ",
+				[
+					{
+						"op": "+",
+						"v": [
+							"1e",
+							"59",
+							"93a"
+						]
+					}
+				]
+			]
 		},
 		"210-4": {
 			"group": "Love and Courtship",
@@ -59296,7 +61103,15 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: A is poor {291|127a|125a|313} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: A is poor ",
+				[
+					"291",
+					"127a",
+					"125a",
+					"313"
+				]
+			]
 		},
 		"303-2": {
 			"group": "Love and Courtship",
@@ -59316,7 +61131,12 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: too old {1d} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: too old ",
+				[
+					"1d"
+				]
+			]
 		},
 		"303-3": {
 			"group": "Love and Courtship",
@@ -59336,7 +61156,13 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: too young {37|124} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: too young ",
+				[
+					"37",
+					"124"
+				]
+			]
 		},
 		"303-4": {
 			"group": "Love and Courtship",
@@ -59356,7 +61182,13 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: of inferior family {171|245} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: of inferior family ",
+				[
+					"171",
+					"245"
+				]
+			]
 		},
 		"303-5": {
 			"group": "Love and Courtship",
@@ -59376,7 +61208,14 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: of superior family {3a|3b|232} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: of superior family ",
+				[
+					"3a",
+					"3b",
+					"232"
+				]
+			]
 		},
 		"303-6": {
 			"group": "Love and Courtship",
@@ -59396,7 +61235,13 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: one of the “idle rich” {98|924b} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: one of the “idle rich” ",
+				[
+					"98",
+					"924b"
+				]
+			]
 		},
 		"303-7": {
 			"group": "Love and Courtship",
@@ -59416,7 +61261,13 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: inherits a mental or physical taint {255|288} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: inherits a mental or physical taint ",
+				[
+					"255",
+					"288"
+				]
+			]
 		},
 		"303-8": {
 			"group": "Love and Courtship",
@@ -59436,7 +61287,14 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: is of questionable character {59|108|152a} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: is of questionable character ",
+				[
+					"59",
+					"108",
+					"152a"
+				]
+			]
 		},
 		"303-9": {
 			"group": "Love and Courtship",
@@ -59456,7 +61314,19 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: is divorced {334b|377a ch B to B-8|388} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: is divorced ",
+				[
+					"334b",
+					{
+						"v": "377a",
+						"tfm": {
+							"B": "B-8"
+						}
+					},
+					"388"
+				]
+			]
 		},
 		"303-10": {
 			"group": "Love and Courtship",
@@ -59476,7 +61346,13 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: is an ex-convict {338|695b} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: is an ex-convict ",
+				[
+					"338",
+					"695b"
+				]
+			]
 		},
 		"303-11": {
 			"group": "Love and Courtship",
@@ -59496,7 +61372,14 @@
 					"330a"
 				]
 			},
-			"description": "A’s love for B meets with obstacles because: is “under a cloud” {80a|237|274} ;"
+			"description": [
+				"A’s love for B meets with obstacles because: is “under a cloud” ",
+				[
+					"80a",
+					"237",
+					"274"
+				]
+			]
 		},
 		"303-12": {
 			"group": "Love and Courtship",
@@ -59539,7 +61422,13 @@
 					"995"
 				]
 			},
-			"description": "B loves A with all aer heart but refuses aer proposal of marriage because ae is so much older than A {37|124} ;"
+			"description": [
+				"B loves A with all aer heart but refuses aer proposal of marriage because ae is so much older than A ",
+				[
+					"37",
+					"124"
+				]
+			]
 		},
 		"326-2": {
 			"group": "Love and Courtship",
@@ -59562,7 +61451,13 @@
 					"995"
 				]
 			},
-			"description": "B loves A with all aer heart but refuses aer proposal of marriage because ae discovers that A does not love aer {142|162a} ;"
+			"description": [
+				"B loves A with all aer heart but refuses aer proposal of marriage because ae discovers that A does not love aer ",
+				[
+					"142",
+					"162a"
+				]
+			]
 		},
 		"326-3": {
 			"group": "Love and Courtship",
@@ -59585,7 +61480,12 @@
 					"995"
 				]
 			},
-			"description": "B loves A with all aer heart but refuses aer proposal of marriage because ae considers A an impractical dreamer {958|136b} ;"
+			"description": [
+				"B loves A with all aer heart but refuses aer proposal of marriage because ae considers A an impractical dreamer ",
+				[
+					"958"
+				]
+			]
 		},
 		"326-4": {
 			"group": "Love and Courtship",
@@ -59721,7 +61621,13 @@
 					"v": []
 				}
 			],
-			"description": "A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** {699b|74a} A house built squarely on the dividing line between two states, so that one may pass from California into Nevada by crossing the living room. The serving of legal processes from one state or the other is thus avoided or delayed. Similarly"
+			"description": [
+				"A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** ",
+				[
+					"699b",
+					"74a"
+				]
+			]
 		},
 		"651-2": {
 			"group": "Enterprise",
@@ -59742,7 +61648,13 @@
 					"v": []
 				}
 			],
-			"description": "A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** {699b|74a} , a cabin built where four states “corner,” a a cabin with one room: the stove in Arizona, the cupboard in New Mexico, the bed in Colorado, the trunk in Utah."
+			"description": [
+				"A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** ",
+				[
+					"699b",
+					"74a"
+				]
+			]
 		},
 		"651-3": {
 			"group": "Enterprise",
@@ -59763,7 +61675,13 @@
 					"v": []
 				}
 			],
-			"description": "A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** {699b|74a} A room in an ancient house, sealed up for two hundred years, with an inscription over the door threatening death to any one attempting to enter"
+			"description": [
+				"A, a fugitive from justice seeking to avoid capture, finds aerself in a tight corner with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a fugitive driven to bay by officers of the law, takes refuge in a house which is a place of mystery ** ",
+				[
+					"699b",
+					"74a"
+				]
+			]
 		},
 		"751-1": {
 			"group": "Enterprise",
@@ -60405,7 +62323,31 @@
 				]
 			},
 			"carryOns": [],
-			"description": "A carries in aer pocket a queer object of mystery, X * A, apparently as the result of carrying in aer pocket a queer object of mystery, X, experiences all sorts of misfortunes.** {595|596|597|1352|1377b|1382 *-**}  Note: [l] X is a large silver watch, engraved with queer inscriptions, considered a talisman by the tribe of wandering Arabs from whom it was stolen; or X is a Chinese coin;"
+			"description": [
+				"A carries in aer pocket a queer object of mystery, X * A, apparently as the result of carrying in aer pocket a queer object of mystery, X, experiences all sorts of misfortunes.** ",
+				[
+					"595",
+					"596",
+					"597",
+					"1352",
+					"1377b",
+					{
+						"op": "?",
+						"v": [
+							{
+								"v": "1382a",
+								"start": "*",
+								"end": "**"
+							},
+							{
+								"v": "1382b",
+								"start": "*",
+								"end": "**"
+							}
+						]
+					}
+				]
+			]
 		},
 		"1343-3": {
 			"group": "Enterprise",
@@ -60425,7 +62367,31 @@
 				]
 			},
 			"carryOns": [],
-			"description": "A carries in aer pocket a queer object of mystery, X * A, apparently as the result of carrying in aer pocket a queer object of mystery, X, experiences all sorts of misfortunes.** {595|596|597|1352|1377b|1382 *-**}  Note: [l] X is a large silver watch, engraved with queer inscriptions, considered a talisman by the tribe of wandering Arabs from whom it was stolen; or 1342"
+			"description": [
+				"A carries in aer pocket a queer object of mystery, X * A, apparently as the result of carrying in aer pocket a queer object of mystery, X, experiences all sorts of misfortunes.** ",
+				[
+					"595",
+					"596",
+					"597",
+					"1352",
+					"1377b",
+					{
+						"op": "?",
+						"v": [
+							{
+								"v": "1382a",
+								"start": "*",
+								"end": "**"
+							},
+							{
+								"v": "1382b",
+								"start": "*",
+								"end": "**"
+							}
+						]
+					}
+				]
+			]
 		},
 		"1356-1": {
 			"group": "Enterprise",
@@ -61140,7 +63106,19 @@
 					"v": []
 				}
 			],
-			"description": "A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** {802a ch A to A-6 & B to A|952} A closes aerself inside aer garage, starts the engine of aer car, inhales the exhaust gases, and dies"
+			"description": [
+				"A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** ",
+				[
+					{
+						"v": "802a",
+						"tfm": {
+							"A": "A-6",
+							"B": "A"
+						}
+					},
+					"952"
+				]
+			]
 		},
 		"1237b-2": {
 			"group": "Enterprise",
@@ -61161,7 +63139,19 @@
 					"v": []
 				}
 			],
-			"description": "A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** {802a ch A to A-6 & B to A|952} A pretends to stall aer automobile on the railroad track and is killed by a limited train"
+			"description": [
+				"A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** ",
+				[
+					{
+						"v": "802a",
+						"tfm": {
+							"A": "A-6",
+							"B": "A"
+						}
+					},
+					"952"
+				]
+			]
 		},
 		"1237b-3": {
 			"group": "Enterprise",
@@ -61182,7 +63172,19 @@
 					"v": []
 				}
 			],
-			"description": "A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** {802a ch A to A-6 & B to A|952} A while in a profuse perspiration from violent exercise deliberately exposes aerself to the wintry air"
+			"description": [
+				"A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** ",
+				[
+					{
+						"v": "802a",
+						"tfm": {
+							"A": "A-6",
+							"B": "A"
+						}
+					},
+					"952"
+				]
+			]
 		},
 		"1237b-4": {
 			"group": "Enterprise",
@@ -61203,7 +63205,19 @@
 					"v": []
 				}
 			],
-			"description": "A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** {802a ch A to A-6 & B to A|952} A, on a hunting trip, is killed when aer gun is “accidentally” discharged"
+			"description": [
+				"A kills aerself, but contrives to make aer death appear accidental * A kills aerself in order that money, to be secured as life insurance, will take care of aer pressing obligations ** ",
+				[
+					{
+						"v": "802a",
+						"tfm": {
+							"A": "A-6",
+							"B": "A"
+						}
+					},
+					"952"
+				]
+			]
 		},
 		"1323c-1": {
 			"group": "Enterprise",
@@ -61314,7 +63328,26 @@
 					"v": []
 				}
 			],
-			"description": "A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false {265a|633|1358|1361b|1357 *-**|1374 *-**|1375}  Note: X is a small image, a peculiar idol, that has such a strange fascination for A that ae keeps it always before aer on aer writing desk;"
+			"description": [
+				"A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false ",
+				[
+					"265a",
+					"633",
+					"1358",
+					"1361b",
+					{
+						"v": "1357",
+						"start": "*",
+						"end": "**"
+					},
+					{
+						"v": "1374",
+						"start": "*",
+						"end": "**"
+					},
+					"1375"
+				]
+			]
 		},
 		"1342a-2": {
 			"group": "Enterprise",
@@ -61344,7 +63377,26 @@
 					"v": []
 				}
 			],
-			"description": "A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false {265a|633|1358|1361b|1357 *-**|1374 *-**|1375}  Note: X is a mirror. A little cloud appears on the face of in old mirror, then disappears, leaving mysterious persons and scenes on the glass;"
+			"description": [
+				"A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false ",
+				[
+					"265a",
+					"633",
+					"1358",
+					"1361b",
+					{
+						"v": "1357",
+						"start": "*",
+						"end": "**"
+					},
+					{
+						"v": "1374",
+						"start": "*",
+						"end": "**"
+					},
+					"1375"
+				]
+			]
 		},
 		"1342a-3": {
 			"group": "Enterprise",
@@ -61374,7 +63426,26 @@
 					"v": []
 				}
 			],
-			"description": "A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false {265a|633|1358|1361b|1357 *-**|1374 *-**|1375}  Note: X is a green stone, a beautiful piece of jade, on which are engraved characters signifying “Bakht,” Persian for “good luck”"
+			"description": [
+				"A, staring at a certain object, X, falls under a spell which leads aer to believe certain events are transpiring—events that are partly true but mostly grotesquely false ",
+				[
+					"265a",
+					"633",
+					"1358",
+					"1361b",
+					{
+						"v": "1357",
+						"start": "*",
+						"end": "**"
+					},
+					{
+						"v": "1374",
+						"start": "*",
+						"end": "**"
+					},
+					"1375"
+				]
+			]
 		},
 		"1354b-1": {
 			"group": "Enterprise",
