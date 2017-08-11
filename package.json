@@ -1,6 +1,6 @@
 {
   "name": "plottoriffic",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Generate plots based on Plotto: A New Method of Plot Suggestion for Writers of Creative Fiction",
   "keywords": ["procedural", "generative", "fiction", "story", "plot", "ES6"],
   "main": "index.js",
