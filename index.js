@@ -2,9 +2,7 @@
 const seedrandom = require('seedrandom');
 const plotto = require("./data/plotto.json");
 
-function regEscape(s) {
-    return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-};
+function regEscape(s) { return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); };
 
 //seedrandom doesn't expose the seed used, so generate one here
 const defaultSeed = seedrandom()(); ;
@@ -194,6 +192,18 @@ class PlotGenerator {
         };
     }
     
+    _transformToRegex(o) {
+        let keys = Object.keys(o);
+        keys.sort(function(a,b){return b.length-a.length;});
+
+        if(keys.length == 0) {
+            return null;
+        }
+
+        let pattern = '\\b(?:' + keys.map(function(s) {                return '(?:' + regEscape(s) + ')';            }).join('|') + ')(?![a-z])';
+        return new RegExp(pattern, 'g');
+    }
+
     _applyNames(text, cast) {
         
         //reset default name lists
@@ -204,13 +214,8 @@ class PlotGenerator {
         
         let nameCache = {};
         
-        let ks = Object.keys(plotto.characters);
-        if(ks.length > 0) {
-            let pattern = '\\b(?:' + ks.map(function(s) {
-                return '(?:' + regEscape(s) + ')';
-            }).join('|') + ')(?=^|$| |,|\\.)';
-            
-            let rg = new RegExp(pattern, 'g');
+        let rg = this._transformToRegex(plotto.characters);
+        if(rg) {
             
             text = text.replace(rg,(match) => {
                 if(!match || match.length == 0)
@@ -302,13 +307,8 @@ class PlotGenerator {
         let str = ret.join('\n\n').trim();
         
         if(transform) {
-            let ks = Object.keys(transform);
-            if(ks.length > 0) {
-                let pattern = '\\b(?:' + ks.map(function(s) {
-                    return '(?:' + regEscape(s) + ')';
-                }).join('|') + ')(?=^|$| |,|\\.)';
-                
-                let rg = new RegExp(pattern, 'g');
+            let rg = this._transformToRegex(transform);
+            if(rg) {
                 
                 let cmp = {
                     before: str,
@@ -337,3 +337,5 @@ class PlotGenerator {
 
 module.exports = PlotGenerator;
 module.exports.defaultSeed = defaultSeed;
+
+
